@@ -26,7 +26,7 @@ public class Application {
 
     public static void main(String[] args) {
         ApplicationContext ctx = SpringApplication.run(Application.class, args);
-
+        /*
         LOGGER.debug("******************************************************************");
         LOGGER.debug("Beans loaded by Spring Boot:");
 
@@ -36,6 +36,7 @@ public class Application {
             LOGGER.debug(beanName);
         }
         LOGGER.debug("******************************************************************");
+        */
     }
 
     @Bean
@@ -53,8 +54,10 @@ public class Application {
 
     @Bean
     public Unmarshaller<EventSearchResult> eventUnmarshaller() {
-        EventUnmarshaller eventUnmarshaller = new EventUnmarshaller();
-        return eventUnmarshaller;
+       EventUnmarshaller eventUnmarshaller = new EventUnmarshaller();
+       return eventUnmarshaller;
     }
+
+
 
 }

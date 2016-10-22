@@ -18,7 +18,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by gawain on 21/10/2016.
+ * Fetches Events data from eventful http api
+ *
+ * http://api.eventful.com/docs/events/search
  */
 @Service
 public class EventRepositoryImpl implements EventRepository {
