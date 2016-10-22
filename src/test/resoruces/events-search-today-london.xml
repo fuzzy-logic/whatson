@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<search>
+  <total_items>276</total_items>
+  <page_size>10</page_size>
+  <page_count>28</page_count>
+  <page_number>1</page_number>
+  <page_items></page_items>
+  <first_item></first_item>
+  <last_item></last_item>
+  <search_time>0.114</search_time>
+  <events>
+    <event id="E0-001-097240868-1">
+      <title>Walking Holiday Spain</title>
+      <url>http://london.eventful.com/events/walking-holiday-spain-/E0-001-097240868-1?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</url>
+      <description>If your are dying to experience any real time adventure with your friends then the walk Andalusia would be perfect for you to enjoy most memorable moments of your life.</description>
+      <start_time>2016-10-21 13:00:00</start_time>
+      <stop_time>2016-10-21 16:00:00</stop_time>
+      <tz_id></tz_id>
+      <tz_olson_path></tz_olson_path>
+      <tz_country></tz_country>
+      <tz_city></tz_city>
+      <olson_path>Europe/London</olson_path>
+      <venue_id>V0-001-009383585-0</venue_id>
+      <venue_url>http://london.eventful.com/venues/london-greater-london-united-kingdom-/V0-001-009383585-0?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</venue_url>
+      <venue_name>London, Greater London, United Kingdom</venue_name>
+      <venue_display>1</venue_display>
+      <venue_address>London, Greater London, United Kingdom</venue_address>
+      <city_name>London</city_name>
+      <region_name>Greater London</region_name>
+      <region_abbr>London</region_abbr>
+      <postal_code></postal_code>
+      <country_name>United Kingdom</country_name>
+      <country_abbr2>GB</country_abbr2>
+      <country_abbr>GBR</country_abbr>
+      <latitude>51.501</latitude>
+      <longitude>-0.124</longitude>
+      <geocode_type>EVDB Geocoder</geocode_type>
+      <all_day>0</all_day>
+      <recur_string></recur_string>
+      <calendar_count></calendar_count>
+      <comment_count></comment_count>
+      <link_count></link_count>
+      <going_count></going_count>
+      <watching_count></watching_count>
+      <created>2016-10-21 01:22:00</created>
+      <owner>walkspain72fafd6</owner>
+      <modified>2016-10-21 01:24:18</modified>
+      <performers></performers>
+      <image>
+        <url>http://s4.evcdn.com/images/small/I0-001/034/270/143-7.jpeg_/walking-holiday-spain-43.jpeg</url>
+        <width>48</width>
+        <height>48</height>
+        <caption></caption>
+        <thumb>
+          <url>http://s4.evcdn.com/images/thumb/I0-001/034/270/143-7.jpeg_/walking-holiday-spain-43.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </thumb>
+        <small>
+          <url>http://s4.evcdn.com/images/small/I0-001/034/270/143-7.jpeg_/walking-holiday-spain-43.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </small>
+        <medium>
+          <url>http://s4.evcdn.com/images/medium/I0-001/034/270/143-7.jpeg_/walking-holiday-spain-43.jpeg</url>
+          <width>128</width>
+          <height>128</height>
+        </medium>
+      </image>
+      <privacy>1</privacy>
+      <calendars></calendars>
+      <groups></groups>
+      <going></going>
+    </event>
+    <event id="E0-001-096749091-6">
+      <title>Turkish Pop-Up @ Arlo &amp; Moe #hithergreen</title>
+      <url>http://london.eventful.com/events/turkish-popup-arlo-moe-hithergreen-/E0-001-096749091-6?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</url>
+      <description> Turkish Pop-Up @ Arlo &amp; Moe - BYOB - 19:30 - 23:00 Olly&amp;#39;s Turkish is popping up in Hither Green at Arlo &amp; Moe. Olly &amp; Olly&amp;#39;s Mum will be bringing you &amp;#39;Authentic Turkish Home Cooking&amp;#39; based on flavours from the Blacksea region. A supperclub every Fridays at Arlo &amp; Moe in Hither Green. Look forward to seeing you soon. Takeaway - BYOB Problems Booking? Contact Us Menu - CHANGING EVERY 4/5 WEEKS Starters Lahana Dolma White Cabbage Stuffed with Rice and Fresh Herbs Rulo Borek Long Rolls of Phyllo Pastry filled with Potatoes, Spinach and Red Chilli Flakes Mercimek Koftesi Red Lentils and Bulgur with Spices and Seasoning Mains Tas Kebab Traditional Lamb Stew with Chopped Carrots, Turkish Green Pepper, Tomatoes and Potatoes served with Homemade Vermicelli Rice OR Etli Taze Fasulye (Veggie Option Available) Traditional Green Bean Stew with Lamb, Onions, Tomatoes  Potatoes served with Homemade Vermicelli Rice Desserts Crispy Baklava Walnuts Filling with Honey and Cinnamon Syrup OR Laz Borek Creamy Custard Pie Baked with Flaky Phyllo Pastry Soaked with Honey and Cinnamon Syrup Treats  Haci Bekir Lokum Haci Bekir (THE BEST) Turkish Delight Sticky Ceviz Helvasi Famous Sticky Walnut Helva from the Province of Kastamonu (Black Sea) </description>
+      <start_time>2016-10-21 19:30:00</start_time>
+      <stop_time></stop_time>
+      <tz_id></tz_id>
+      <tz_olson_path></tz_olson_path>
+      <tz_country></tz_country>
+      <tz_city></tz_city>
+      <olson_path>Europe/London</olson_path>
+      <venue_id>V0-001-009700909-1</venue_id>
+      <venue_url>http://london.eventful.com/venues/arlo-moe-/V0-001-009700909-1?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</venue_url>
+      <venue_name>Arlo &amp; Moe</venue_name>
+      <venue_display>1</venue_display>
+      <venue_address>340 Brockley Road</venue_address>
+      <city_name>London</city_name>
+      <region_name>Greater London</region_name>
+      <region_abbr>London</region_abbr>
+      <postal_code></postal_code>
+      <country_name>United Kingdom</country_name>
+      <country_abbr2>GB</country_abbr2>
+      <country_abbr>GBR</country_abbr>
+      <latitude>51.501</latitude>
+      <longitude>-0.124</longitude>
+      <geocode_type>City Based GeoCodes</geocode_type>
+      <all_day>0</all_day>
+      <recur_string></recur_string>
+      <calendar_count></calendar_count>
+      <comment_count></comment_count>
+      <link_count></link_count>
+      <going_count></going_count>
+      <watching_count></watching_count>
+      <created>2016-09-25 00:10:54</created>
+      <owner>evdb</owner>
+      <modified>2016-10-20 10:22:04</modified>
+      <performers></performers>
+      <image>
+        <url>http://s3.evcdn.com/images/small/I0-001/031/771/998-4.jpeg_/turkish-popup-arlo-moe-hithergreen-98.jpeg</url>
+        <width>48</width>
+        <height>48</height>
+        <caption></caption>
+        <thumb>
+          <url>http://s3.evcdn.com/images/thumb/I0-001/031/771/998-4.jpeg_/turkish-popup-arlo-moe-hithergreen-98.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </thumb>
+        <small>
+          <url>http://s3.evcdn.com/images/small/I0-001/031/771/998-4.jpeg_/turkish-popup-arlo-moe-hithergreen-98.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </small>
+        <medium>
+          <url>http://s3.evcdn.com/images/medium/I0-001/031/771/998-4.jpeg_/turkish-popup-arlo-moe-hithergreen-98.jpeg</url>
+          <width>128</width>
+          <height>128</height>
+        </medium>
+      </image>
+      <privacy>1</privacy>
+      <calendars></calendars>
+      <groups></groups>
+      <going></going>
+    </event>
+    <event id="E0-001-097158315-2">
+      <title>Orbis Access Benchmark Rally</title>
+      <url>http://london.eventful.com/events/orbis-access-benchmark-rally-/E0-001-097158315-2?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</url>
+      <description> Pit yourself against friends, colleagues or strangers at the wheel of a remote-control rally car on a punishing 5 X 8m alpine circuit. &lt;br&gt;&lt;br&gt; What&amp;#39;s more, Jodie Kidd, supermodel and racing car driver, will help set a benchmark time - beat it and you&amp;#39;ll win a reward.&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;b&gt;Official Link&lt;/b&gt;: &lt;a href="http://www.orbisaccess.co.uk/benchmark-rally" title="http://www.orbisaccess.co.uk/benchmark-rally" rel="nofollow"&gt;http://www.orbisaccess.co.uk/benchmark-rally&lt;/a&gt;&lt;/p&gt;</description>
+      <start_time>2016-10-17 00:00:00</start_time>
+      <stop_time>2016-10-21 00:00:00</stop_time>
+      <tz_id></tz_id>
+      <tz_olson_path></tz_olson_path>
+      <tz_country></tz_country>
+      <tz_city></tz_city>
+      <olson_path>Europe/London</olson_path>
+      <venue_id>V0-001-009715544-2</venue_id>
+      <venue_url>http://london.eventful.com/venues/jubilee-place-/V0-001-009715544-2?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</venue_url>
+      <venue_name>Jubilee Place</venue_name>
+      <venue_display>1</venue_display>
+      <venue_address>Canary Wharf</venue_address>
+      <city_name>London</city_name>
+      <region_name>Greater London</region_name>
+      <region_abbr>London</region_abbr>
+      <postal_code></postal_code>
+      <country_name>United Kingdom</country_name>
+      <country_abbr2>GB</country_abbr2>
+      <country_abbr>GBR</country_abbr>
+      <latitude>51.501</latitude>
+      <longitude>-0.124</longitude>
+      <geocode_type>City Based GeoCodes</geocode_type>
+      <all_day>2</all_day>
+      <recur_string></recur_string>
+      <calendar_count></calendar_count>
+      <comment_count></comment_count>
+      <link_count></link_count>
+      <going_count></going_count>
+      <watching_count></watching_count>
+      <created>2016-10-15 11:14:28</created>
+      <owner>evdb</owner>
+      <modified>2016-10-15 11:14:28</modified>
+      <performers></performers>
+      <image></image>
+      <privacy>1</privacy>
+      <calendars></calendars>
+      <groups></groups>
+      <going></going>
+    </event>
+    <event id="E0-001-097158263-0">
+      <title>London Food Tech Week</title>
+      <url>http://london.eventful.com/events/london-food-tech-week-/E0-001-097158263-0?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</url>
+      <description> London Food Tech Week, the world&amp;#39;s largest gathering of all things Food Tech returns for its second year, which will run from 17th to 21st October. The week will bring together startups to FTSE 250s who are all dedicated to making a positive impact on the future of food through innovation, collaboration and investment.&lt;br&gt;&lt;br&gt; Bringing together brands, innovators, startups and investors London Food Tech Week aims to elevate the Food Tech industry and disrupt the future of food, with an exciting and ambitious programme that will tackle the issues and challenges currently faced by the industry, with each day allocated a specific theme.&lt;br&gt;&lt;br&gt; During London Food Tech Week visitors can explore the concept of lab-grown meat, how artificial intelligence can help deliver better solutions for our nutrition, and the potential of 3D printing food through a series of inspirational talks and debates, as well as experience immersive new technology and meet the up-and-coming pioneers of the Food Tech Industry.&lt;br&gt;&lt;br&gt; London Food Tech Week has partnered with Just Eat on the Collaborative Innovation and Investment themed day to support the launch of its inaugural Accelerator Programme. During the week, startups will pitch their businesses to an expert panel for a chance to be selected as the first entrants onto Just Eat&amp;#39;s Accelerator. The programme is part of Just Eat&amp;#39;s vision to create the world&amp;#39;s greatest food community, helping to build a sustainable Food Tech industry by supporting and investing in the next generation of FTSE 250 startups.&lt;br&gt;&lt;br&gt; Highlights of the five-day event include an Insect Bar where guests will be able to taste a selection of bug proteins. Visitors will see how technology is being used to turn insects into protein in a combative solution to sustaining the ever-growing population. They will be able to try liquid nitrogen ice cream with insect protein, cherry chocolate brownies made with cricket flour, and world-class insect-infused cocktails. Visitors will also be able to tour the UK&amp;#39;s only Aquaponic Farm and experience the future of urban farming, as well as taste the fruits of their labour.&lt;br&gt;&lt;br&gt; Another highlight is the Supermarket of the Future. Here, attendees will experience the future of food retail: Does it include Virtual Reality in the retail experience? Are the supermarkets of the future selling cricket flour pasta or mealworm Bolognese? Will consumers subscribe to hydroponics shelf space in their local retailer? Will supermarkets even exist?&lt;br&gt;&lt;br&gt; Additional features during the week include a workshop exploring the applications of Nanotechnology in food, The FoodTalks &amp;#39;Unboxing the Future of Dining&amp;#39; panel event, which will be hosted on Facebook Live, and will see a specially selected panel unbox exciting, never before seen products from the Food Tech world. And, a Pop Up restaurant where guests will be immersed in an end-to-end Digital Dining experience.&lt;br&gt;&lt;br&gt; London Food Tech Week features dozens of innovators and experts, such as Jamie&amp;#39;s Food Tube star, The Food Busker who will host the founders of SORTEDFood. The week also includes talks from leading experts in their fields including Zoe Collins, Creative Director of the Jamie Oliver Group, Tessa Cook, Co-Founder of OLIO and Arthur Kay, CEO of Bio Bean.&lt;br&gt;&lt;br&gt; Tickets are available now and can be purchased by the event, day or a full week pass on the website.&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;b&gt;Official Link&lt;/b&gt;: &lt;a href="http://www.yfood.com/" title="http://www.yfood.com" rel="nofollow"&gt;http://www.yfood.com&lt;/a&gt;&lt;/p&gt;</description>
+      <start_time>2016-10-17 00:00:00</start_time>
+      <stop_time>2016-10-21 00:00:00</stop_time>
+      <tz_id></tz_id>
+      <tz_olson_path></tz_olson_path>
+      <tz_country></tz_country>
+      <tz_city></tz_city>
+      <olson_path>Europe/London</olson_path>
+      <venue_id>V0-001-007543572-6</venue_id>
+      <venue_url>http://london.eventful.com/venues/the-proud-archivist-/V0-001-007543572-6?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</venue_url>
+      <venue_name>The Proud Archivist</venue_name>
+      <venue_display>1</venue_display>
+      <venue_address>2-10 Hertford Road</venue_address>
+      <city_name>London</city_name>
+      <region_name>Greater London</region_name>
+      <region_abbr>London</region_abbr>
+      <postal_code>N1 9DX</postal_code>
+      <country_name>United Kingdom</country_name>
+      <country_abbr2>GB</country_abbr2>
+      <country_abbr>GBR</country_abbr>
+      <latitude>51.5315</latitude>
+      <longitude>-0.121215</longitude>
+      <geocode_type>Zip Code Based GeoCodes</geocode_type>
+      <all_day>2</all_day>
+      <recur_string></recur_string>
+      <calendar_count></calendar_count>
+      <comment_count></comment_count>
+      <link_count></link_count>
+      <going_count></going_count>
+      <watching_count></watching_count>
+      <created>2016-10-15 11:13:32</created>
+      <owner>evdb</owner>
+      <modified>2016-10-15 11:13:32</modified>
+      <performers></performers>
+      <image></image>
+      <privacy>1</privacy>
+      <calendars></calendars>
+      <groups></groups>
+      <going></going>
+    </event>
+    <event id="E0-001-096840188-5">
+      <title>CANCELLED - Advanced Diamonds - WWR SC</title>
+      <url>http://london.eventful.com/events/cancelled-advanced-diamonds-wwr-sc-/E0-001-096840188-5?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</url>
+      <description> IMPORTANT NOTICE – THIS EVENT IS STRICTLY FOR H&amp;T EMPLOYEES ONLY.YOU WILL BE ASKED TO PROVIDE ID BEFORE ENTRANCE IS PERMITTED. The advanced diamonds course is a brand new workshop - even if you have attended the old course and/or the GIA course, it is strongly recommended that you make every effort to attend. Things to do/ know before attendance- • Relevant E-Learning courses must be completed &amp; passed prior to attendance, and the pass must be dated within one month of your workshop.• Please arrive 15 minutes before your allocated start time eg- 9.45am for a 10.00am start.• All workshops finish approx. 5.30pm unless otherwise stated. • Lunch and refreshments will be available. • Please bring your loupe.• Please dress in accordance with the company guidelines. Casual dress is not acceptable on training courses as you are in a store training venue. ON COMPLETION OF YOUR REGISTRATION, PLEASE PRINT OFF YOUR TICKET &amp; BRING IT WITH YOU TO THE WORKSHOP. THIS IS FOR SECURITY REASONS AND YOU WILL NOT BE PERMITTED ENTRANCE WITHOUT IT. If you wish to cancel your attendance once you have confirmed, this has to be within 7 days prior to the workshop except for sickness whereby the trainer must be notified and you must gain approval from your Area Manager. We hope that you find the training to be a useful and rewarding experience.It is of the utmost importance that every effort is made to attend this workshop as part of your development in your role and within the company. Enjoy your learning! The L&amp;D Department </description>
+      <start_time>2016-10-21 10:00:00</start_time>
+      <stop_time></stop_time>
+      <tz_id></tz_id>
+      <tz_olson_path></tz_olson_path>
+      <tz_country></tz_country>
+      <tz_city></tz_city>
+      <olson_path>Europe/London</olson_path>
+      <venue_id>V0-001-010339990-1</venue_id>
+      <venue_url>http://london.eventful.com/venues/ht-/V0-001-010339990-1?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</venue_url>
+      <venue_name>H&amp;T</venue_name>
+      <venue_display>1</venue_display>
+      <venue_address>Walworth Road</venue_address>
+      <city_name>London</city_name>
+      <region_name>Greater London</region_name>
+      <region_abbr>London</region_abbr>
+      <postal_code></postal_code>
+      <country_name>United Kingdom</country_name>
+      <country_abbr2>GB</country_abbr2>
+      <country_abbr>GBR</country_abbr>
+      <latitude>51.501</latitude>
+      <longitude>-0.124</longitude>
+      <geocode_type>City Based GeoCodes</geocode_type>
+      <all_day>0</all_day>
+      <recur_string></recur_string>
+      <calendar_count></calendar_count>
+      <comment_count></comment_count>
+      <link_count></link_count>
+      <going_count></going_count>
+      <watching_count></watching_count>
+      <created>2016-09-29 16:18:02</created>
+      <owner>evdb</owner>
+      <modified>2016-09-29 16:18:02</modified>
+      <performers></performers>
+      <image>
+        <url>http://s1.evcdn.com/images/small/I0-001/033/571/372-6.jpeg_/cancelled-advanced-diamonds-wwr-sc-72.jpeg</url>
+        <width>48</width>
+        <height>48</height>
+        <caption></caption>
+        <thumb>
+          <url>http://s1.evcdn.com/images/thumb/I0-001/033/571/372-6.jpeg_/cancelled-advanced-diamonds-wwr-sc-72.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </thumb>
+        <small>
+          <url>http://s1.evcdn.com/images/small/I0-001/033/571/372-6.jpeg_/cancelled-advanced-diamonds-wwr-sc-72.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </small>
+        <medium>
+          <url>http://s1.evcdn.com/images/medium/I0-001/033/571/372-6.jpeg_/cancelled-advanced-diamonds-wwr-sc-72.jpeg</url>
+          <width>128</width>
+          <height>128</height>
+        </medium>
+      </image>
+      <privacy>1</privacy>
+      <calendars></calendars>
+      <groups></groups>
+      <going></going>
+    </event>
+    <event id="E0-001-096964296-6">
+      <title>Boom! - West Coast Special</title>
+      <url>http://london.eventful.com/events/boom-west-coast-special-/E0-001-096964296-6?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</url>
+      <description>This month we&amp;#39;re dedicating an entire night the the most popular &amp;#39;West Coast&amp;#39; Artists, so expect the hear your favourite anthems from the likes of Kendrick, Tupac, Snopp, TY Dolla Sign, Whiz Kalifa, Keyshia Cole, Nate Dogg, The Game, Brandy, Ludacris, Coolio, Xzibit, YG, Black Eyed Peas, Warren G, Dr Dre, Cypress Hill, Ice Cube, House of Pain, Kid Ink and so on.
+
+BOOM has established itself as one of the most exciting Hip-Hop &amp; RnB parties in London. You can now join the party every month at our new home, Bloomsbury Lanes for your monthly fix of Hip-Hop and RnB guilty pleasures at the only party dedicated to the most shamelessly popular urban anthems of the last 40 years.
+
+At our new venue you can bowl to the hottest bangers, channel your inner RnB diva in the karaoke rooms and win prizes in our dance offs as you dance the night away to London?s best DJs.
+With 8 Bowling lanes, 4 Karaoke rooms and American food served all night, Bloomsbury Lanes is the perfect place to celebrate birthdays, leaving do?s or just the fact it is the weekend.
+
+For Bookings, Karaoke &amp; Bowling hire email boompartyldn@gmail.com</description>
+      <start_time>2016-10-21 22:00:00</start_time>
+      <stop_time>2016-10-22 04:00:00</stop_time>
+      <tz_id></tz_id>
+      <tz_olson_path></tz_olson_path>
+      <tz_country></tz_country>
+      <tz_city></tz_city>
+      <olson_path>Europe/London</olson_path>
+      <venue_id>V0-001-008561273-1</venue_id>
+      <venue_url>http://london.eventful.com/venues/bloomsbury-lanes-/V0-001-008561273-1?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</venue_url>
+      <venue_name>Bloomsbury Lanes</venue_name>
+      <venue_display>1</venue_display>
+      <venue_address>Basement of Tavistock Hotel, Bedford Way, WC1H , United Kingdom</venue_address>
+      <city_name>London</city_name>
+      <region_name>Greater London</region_name>
+      <region_abbr>London</region_abbr>
+      <postal_code></postal_code>
+      <country_name>United Kingdom</country_name>
+      <country_abbr2>GB</country_abbr2>
+      <country_abbr>GBR</country_abbr>
+      <latitude>51.501</latitude>
+      <longitude>-0.124</longitude>
+      <geocode_type>City Based GeoCodes</geocode_type>
+      <all_day>0</all_day>
+      <recur_string></recur_string>
+      <calendar_count></calendar_count>
+      <comment_count></comment_count>
+      <link_count></link_count>
+      <going_count></going_count>
+      <watching_count></watching_count>
+      <created>2016-10-06 01:53:15</created>
+      <owner>BloomsburyBowlingLanes</owner>
+      <modified>2016-10-06 01:53:15</modified>
+      <performers></performers>
+      <image>
+        <url>http://s3.evcdn.com/images/small/I0-001/033/767/750-7.jpeg_/boom-west-coast-special-50.jpeg</url>
+        <width>48</width>
+        <height>48</height>
+        <caption></caption>
+        <thumb>
+          <url>http://s3.evcdn.com/images/thumb/I0-001/033/767/750-7.jpeg_/boom-west-coast-special-50.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </thumb>
+        <small>
+          <url>http://s3.evcdn.com/images/small/I0-001/033/767/750-7.jpeg_/boom-west-coast-special-50.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </small>
+        <medium>
+          <url>http://s3.evcdn.com/images/medium/I0-001/033/767/750-7.jpeg_/boom-west-coast-special-50.jpeg</url>
+          <width>128</width>
+          <height>128</height>
+        </medium>
+      </image>
+      <privacy>1</privacy>
+      <calendars></calendars>
+      <groups></groups>
+      <going></going>
+    </event>
+    <event id="E0-001-096249580-0">
+      <title>Introducing Recreate DJ Shadow Endtroducing</title>
+      <url>http://london.eventful.com/events/introducing-recreate-dj-shadow-endtroducing-/E0-001-096249580-0?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</url>
+      <description> Line-up /&lt;p&gt;Introducing recreate &lt;a&gt;DJ Shadow&lt;/a&gt; Endtroducing&lt;br&gt;&lt;br&gt; Count Skylarkin. DJ Fu&lt;br&gt; + support&lt;p&gt; To celebrate the 20th Anniversary since it&amp;#39;s release INTRODUCING LIVE join us at The POW to perform DJ SHADOW&amp;#39;s seminal masterpiece &amp;quot;Endtroducing&amp;quot; fully live.&lt;br&gt;&lt;br&gt; INTRODUCING LIVE are a 10 piece band who have also taken on reproducing the work of Daft Punk &amp; Mr. Scruff in a live format to huge success.&lt;br&gt;&lt;br&gt; &amp;quot;Endtroducing&amp;quot; was the first album to be composed entirely of samples (The Guinness Book of Records) - INTRODUCING LIVE play the album in order, completely live, note for note, drum loop for drum loop, on real instruments with no backing track or sequencing in sight, a seemingly impossible task they make look easy.&lt;/p&gt;&lt;/p&gt;</description>
+      <start_time>2016-10-21 20:00:00</start_time>
+      <stop_time></stop_time>
+      <tz_id></tz_id>
+      <tz_olson_path></tz_olson_path>
+      <tz_country></tz_country>
+      <tz_city></tz_city>
+      <olson_path>Europe/London</olson_path>
+      <venue_id>V0-001-007687068-9</venue_id>
+      <venue_url>http://london.eventful.com/venues/prince-of-wales-/V0-001-007687068-9?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</venue_url>
+      <venue_name>Prince Of Wales</venue_name>
+      <venue_display>1</venue_display>
+      <venue_address>467-469 Brixton Road</venue_address>
+      <city_name>London</city_name>
+      <region_name>Greater London</region_name>
+      <region_abbr>London</region_abbr>
+      <postal_code>Sw9 8HH</postal_code>
+      <country_name>United Kingdom</country_name>
+      <country_abbr2>GB</country_abbr2>
+      <country_abbr>GBR</country_abbr>
+      <latitude>51.461472686762136</latitude>
+      <longitude>-0.11493793558202015</longitude>
+      <geocode_type>EVDB Geocoder</geocode_type>
+      <all_day>0</all_day>
+      <recur_string></recur_string>
+      <calendar_count></calendar_count>
+      <comment_count></comment_count>
+      <link_count></link_count>
+      <going_count></going_count>
+      <watching_count></watching_count>
+      <created>2016-09-03 19:37:04</created>
+      <owner>evdb</owner>
+      <modified>2016-10-01 21:26:53</modified>
+      <performers></performers>
+      <image>
+        <url>http://s1.evcdn.com/images/small/I0-001/033/674/148-9.jpeg_/introducing-recreate-dj-shadow-endtroducing-48.jpeg</url>
+        <width>48</width>
+        <height>48</height>
+        <caption></caption>
+        <thumb>
+          <url>http://s1.evcdn.com/images/thumb/I0-001/033/674/148-9.jpeg_/introducing-recreate-dj-shadow-endtroducing-48.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </thumb>
+        <small>
+          <url>http://s1.evcdn.com/images/small/I0-001/033/674/148-9.jpeg_/introducing-recreate-dj-shadow-endtroducing-48.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </small>
+        <medium>
+          <url>http://s1.evcdn.com/images/medium/I0-001/033/674/148-9.jpeg_/introducing-recreate-dj-shadow-endtroducing-48.jpeg</url>
+          <width>128</width>
+          <height>128</height>
+        </medium>
+      </image>
+      <privacy>1</privacy>
+      <calendars></calendars>
+      <groups></groups>
+      <going></going>
+    </event>
+    <event id="E0-001-092943812-7@2016102118">
+      <title>SLAM - Spirit of Leadership</title>
+      <url>http://london.eventful.com/events/slam-spirit-leadership-/E0-001-092943812-7@2016102118?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</url>
+      <description> The development and equipping of leaders isn&amp;#39;t and can&amp;#39;t be a one off thing. Leaders and ministers need moments/times to refresh retreat reprioritise reorganise and release. And here&amp;#39;s another edition of SLAM with the theme THE SPIRIT OF LEADERSHIP. Our mission at SLAM is to raise leaders and ministers who engage in FELLOWSHIP practise ACCOUNTABILITY birthing REVIVAL. We emphasize genuine Kingdom relationships and connections because no one ministry or single individual has all the body or the world needs We are stronger and better together. We are non segregational, denominational or cultural but operate purely from a Kingdom mindset. SLAM is for leaders and ministers regardless of degrees and years of experience, church leaders, ministry heads and assistants, worship leaders, pastors wives/fiancee and basically anyone who senses or would like to discover the call of God over their life into (full time) ministry or anyone who would love to learn and understand leadership/ministry from God&amp;#39;s perspective. Our meetings are always great opportunities to lay it all down take off the mask and be yourself before your Lord and with other like minded leaders and ministers encouraging and sharpening one another in the Sprit of love and humility. Sessions are as follow:  FRIDAY 21ST OCTOBER 6:30pm - 9:30pm When Leaders Pray When Ministers Worship SATURDAY 22ND OCTOBER 10am - 12pm Undersranding Mentoring and Fatherhood 1pm - 4pm School of Prophets and the Prophetic 6:30pm - 10pm Impartation  Admission is FREE but registration is required. MORE INFO SOON!  </description>
+      <start_time>2016-10-21 18:30:00</start_time>
+      <stop_time></stop_time>
+      <tz_id></tz_id>
+      <tz_olson_path></tz_olson_path>
+      <tz_country></tz_country>
+      <tz_city></tz_city>
+      <olson_path>Europe/London</olson_path>
+      <venue_id>V0-001-005835833-2</venue_id>
+      <venue_url>http://london.eventful.com/venues/london-/V0-001-005835833-2?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</venue_url>
+      <venue_name>London</venue_name>
+      <venue_display>1</venue_display>
+      <venue_address>48 Oxford Street London W1D 1BF</venue_address>
+      <city_name>London</city_name>
+      <region_name>Greater London</region_name>
+      <region_abbr>London</region_abbr>
+      <postal_code></postal_code>
+      <country_name>United Kingdom</country_name>
+      <country_abbr2>GB</country_abbr2>
+      <country_abbr>GBR</country_abbr>
+      <latitude>51.5163604</latitude>
+      <longitude>-0.1325915</longitude>
+      <geocode_type>EVDB Geocoder</geocode_type>
+      <all_day>0</all_day>
+      <recur_string>daily until October 22, 2016</recur_string>
+      <calendar_count></calendar_count>
+      <comment_count></comment_count>
+      <link_count></link_count>
+      <going_count></going_count>
+      <watching_count></watching_count>
+      <created>2016-04-24 12:05:41</created>
+      <owner>evdb</owner>
+      <modified>2016-04-24 12:05:41</modified>
+      <performers></performers>
+      <image>
+        <url>http://s4.evcdn.com/images/small/I0-001/027/380/231-7.jpeg_/slam-spirit-leadership-31.jpeg</url>
+        <width>48</width>
+        <height>48</height>
+        <caption></caption>
+        <thumb>
+          <url>http://s4.evcdn.com/images/thumb/I0-001/027/380/231-7.jpeg_/slam-spirit-leadership-31.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </thumb>
+        <small>
+          <url>http://s4.evcdn.com/images/small/I0-001/027/380/231-7.jpeg_/slam-spirit-leadership-31.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </small>
+        <medium>
+          <url>http://s4.evcdn.com/images/medium/I0-001/027/380/231-7.jpeg_/slam-spirit-leadership-31.jpeg</url>
+          <width>128</width>
+          <height>128</height>
+        </medium>
+      </image>
+      <privacy>1</privacy>
+      <calendars></calendars>
+      <groups></groups>
+      <going></going>
+    </event>
+    <event id="E0-001-096268380-3@2016102110">
+      <title>Practitioner Training Workshops</title>
+      <url>http://london.eventful.com/events/practitioner-training-work-/E0-001-096268380-3@2016102110?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</url>
+      <description> Drama &amp; Theatre Practitioner, Tony Cealy has developed three new low-cost training workshops for continued professional development. Each training workshop uses harmonizing techniques for a range of group work applications from theatre of the oppressed techniques, devising, managing resistance, working with difficult groups and individuals, running sessions in closed settings likes prisons and secure estates, performance techniques, facilitation, improvisation, and much much more. These trainings are for people who are in related professions such arts practitioners, social care, therapy, mental health, education, community arts or personal development as well as students and trainees in such professions. The training courses are a resource for: performers, youth workers, social/health workers, PSHE specialists, drama graduates, project managers, community workers, artists, workshop leaders, teachers, theatre practitioners, creative art therapists, counsellors, mental health workers, team builders, special needs workers and people who work in closed institutions with difficult and awkward groups and individuals. All three training courses empower you to reflect, practice and develop your own style and approach. The techniques can be readily adapted to a wide range of settings with adults and young people. Free training manuals provided on completion! For more information contact www.tonycealy.com/training info@nohbudgetfilms.freeserve.co.uk or on 07956877358 Tony Cealy Breaking Barriers https://www.eventbrite.co.uk/e/breaking-barriers-creative-arts-practitioner-training-tickets-27502199820?aff=eac2 Beyond Resistance https://www.eventbrite.co.uk/e/beyond-resistance-creative-arts-practitioner-training-tickets-27502485675 Robust Games &amp; Exercises for difficult groups and indivuals https://www.eventbrite.co.uk/e/robust-games-exercises-for-difficult-groups-and-individuals-creative-arts-practitioner-training-tickets-27502541843?aff=eac2 </description>
+      <start_time>2016-10-21 10:00:00</start_time>
+      <stop_time></stop_time>
+      <tz_id></tz_id>
+      <tz_olson_path></tz_olson_path>
+      <tz_country></tz_country>
+      <tz_city></tz_city>
+      <olson_path>Europe/London</olson_path>
+      <venue_id>V0-001-010144510-9</venue_id>
+      <venue_url>http://london.eventful.com/venues/top-floor-room-/V0-001-010144510-9?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</venue_url>
+      <venue_name>Top Floor Room</venue_name>
+      <venue_display>1</venue_display>
+      <venue_address>Bonnington Centre Community Association, above the Café , 11 Vauxhall Grove,</venue_address>
+      <city_name>London</city_name>
+      <region_name>Greater London</region_name>
+      <region_abbr>London</region_abbr>
+      <postal_code></postal_code>
+      <country_name>United Kingdom</country_name>
+      <country_abbr2>GB</country_abbr2>
+      <country_abbr>GBR</country_abbr>
+      <latitude>51.501</latitude>
+      <longitude>-0.124</longitude>
+      <geocode_type>City Based GeoCodes</geocode_type>
+      <all_day>0</all_day>
+      <recur_string>daily until November 4, 2016</recur_string>
+      <calendar_count></calendar_count>
+      <comment_count></comment_count>
+      <link_count></link_count>
+      <going_count></going_count>
+      <watching_count></watching_count>
+      <created>2016-09-04 08:09:25</created>
+      <owner>evdb</owner>
+      <modified>2016-09-05 07:49:59</modified>
+      <performers></performers>
+      <image>
+        <url>http://s1.evcdn.com/images/small/I0-001/032/488/576-2.jpeg_/practitioner-training-workshops-76.jpeg</url>
+        <width>48</width>
+        <height>48</height>
+        <caption></caption>
+        <thumb>
+          <url>http://s1.evcdn.com/images/thumb/I0-001/032/488/576-2.jpeg_/practitioner-training-workshops-76.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </thumb>
+        <small>
+          <url>http://s1.evcdn.com/images/small/I0-001/032/488/576-2.jpeg_/practitioner-training-workshops-76.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </small>
+        <medium>
+          <url>http://s1.evcdn.com/images/medium/I0-001/032/488/576-2.jpeg_/practitioner-training-workshops-76.jpeg</url>
+          <width>128</width>
+          <height>128</height>
+        </medium>
+      </image>
+      <privacy>1</privacy>
+      <calendars></calendars>
+      <groups></groups>
+      <going></going>
+    </event>
+    <event id="E0-001-096652742-6@2016102122">
+      <title>Libra's Birthday Bash</title>
+      <url>http://london.eventful.com/events/libras-birthday-bash-/E0-001-096652742-6@2016102122?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</url>
+      <description> The promoters of Unique Beats presents the Libra&amp;#39;s birthday bash for all you celebrating your birthday in October why not come down to Bar N22 242 High Road Wood Green N22 8JX for a night of fire. Weather you are a celebrating a Birthday or not you are sure to have a night of good Vibez!!! Bringing you the best &amp; finest vibez will be Dj Skanks (Flames Radio) , Dj Daze (Flames Radio ) &amp; Twin Elements. You are surely going to have the celebration of your life. VIP bookings for birthday groups for just £250.00 which includes 2 bottles of the finest Champs, Birthday cake plus much more... Call us for more info now!!! Admission: £10.00 Tickets available on Shoobs.com / Eventbrite.com or More on the door. Dress Code: Smart. No Hats, Hoods or Trainers. Doors open @ 10pm till 5am ... Last Entry is at 3am Sharp. ID is required! Ticket Info &amp; Birthday Bookings please call or text 07415 886 543 </description>
+      <start_time>2016-10-21 22:00:00</start_time>
+      <stop_time></stop_time>
+      <tz_id></tz_id>
+      <tz_olson_path></tz_olson_path>
+      <tz_country></tz_country>
+      <tz_city></tz_city>
+      <olson_path>Europe/London</olson_path>
+      <venue_id>V0-001-010653708-9</venue_id>
+      <venue_url>http://london.eventful.com/venues/bar-n22-/V0-001-010653708-9?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</venue_url>
+      <venue_name>Bar N22</venue_name>
+      <venue_display>1</venue_display>
+      <venue_address>242 High Road</venue_address>
+      <city_name>London</city_name>
+      <region_name>Greater London</region_name>
+      <region_abbr>London</region_abbr>
+      <postal_code></postal_code>
+      <country_name>United Kingdom</country_name>
+      <country_abbr2>GB</country_abbr2>
+      <country_abbr>GBR</country_abbr>
+      <latitude>51.501</latitude>
+      <longitude>-0.124</longitude>
+      <geocode_type>City Based GeoCodes</geocode_type>
+      <all_day>0</all_day>
+      <recur_string>daily until October 22, 2016</recur_string>
+      <calendar_count></calendar_count>
+      <comment_count></comment_count>
+      <link_count></link_count>
+      <going_count></going_count>
+      <watching_count></watching_count>
+      <created>2016-09-21 23:38:38</created>
+      <owner>evdb</owner>
+      <modified>2016-09-21 23:38:38</modified>
+      <performers></performers>
+      <image>
+        <url>http://s4.evcdn.com/images/small/I0-001/033/244/391-4.jpeg_/libras-birthday-bash-91.jpeg</url>
+        <width>48</width>
+        <height>48</height>
+        <caption></caption>
+        <thumb>
+          <url>http://s4.evcdn.com/images/thumb/I0-001/033/244/391-4.jpeg_/libras-birthday-bash-91.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </thumb>
+        <small>
+          <url>http://s4.evcdn.com/images/small/I0-001/033/244/391-4.jpeg_/libras-birthday-bash-91.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </small>
+        <medium>
+          <url>http://s4.evcdn.com/images/medium/I0-001/033/244/391-4.jpeg_/libras-birthday-bash-91.jpeg</url>
+          <width>128</width>
+          <height>128</height>
+        </medium>
+      </image>
+      <privacy>1</privacy>
+      <calendars></calendars>
+      <groups></groups>
+      <going></going>
+    </event>
+  </events>
+</search>
