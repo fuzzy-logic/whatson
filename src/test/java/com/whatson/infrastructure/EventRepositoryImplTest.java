@@ -18,6 +18,7 @@ import org.springframework.web.client.RestTemplate;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 //import static org.hamcrest.CoreMatchers.*;
 import static org.hamcrest.Matchers.*;
@@ -54,19 +55,24 @@ public class EventRepositoryImplTest {
         Resource resource = new ClassPathResource("events-search-today-london.xml");
         String responseBody = resource.getFile().toString();
 
-        String pathAndParams = "/rest/events/search?date=Today&location=London&app_key=" + appKey;
+        String expectedUrl = eventfulRootUrl + "/rest/events/search?date=Today&location=London&app_key=" + appKey;
+
+        String[] expectedIds = new String[] {"E0-001-097240868-1", "E0-001-096749091-6", "E0-001-097158315-2",
+                "E0-001-097158263-0", "E0-001-096840188-5", "E0-001-096964296-6", "E0-001-096249580-0",
+                "E0-001-092943812-7@2016102118", "E0-001-096268380-3@2016102110", "E0-001-096652742-6@2016102122"};
 
         MockRestServiceServer server = MockRestServiceServer.bindTo(restTemplate).build();
 
-        server.expect(once(), requestTo(eventfulRootUrl + pathAndParams)).andExpect(method(HttpMethod.GET))
+        server.expect(once(), requestTo(expectedUrl)).andExpect(method(HttpMethod.GET))
         .andRespond(withSuccess(responseBody, MediaType.APPLICATION_JSON));
 
-        List<Event> events = eventsRepository.getEventsXDaysAhead(1);
+        List<EventVO> events = eventsRepository.getEventsXDaysAhead(1);
+
+        List<String> eventIds = events.stream().map(e -> e.getId()).collect(Collectors.toList());
 
         assertThat(events, is(allOf(notNullValue(), instanceOf(ArrayList.class))));
-        assertThat(events.size(), is(equalTo(0)));
-        //assertThat(events, is(allOf(notNullValue(), containsInAnyOrder(new ArrayList()))));
-       // assertThat(response.getBody(), is(allOf(notNullValue(), instanceOf(String.class), equalTo(jsonBody))));
+        assertThat(events.size(), is(equalTo(10)));
+        assertThat(eventIds, is(allOf(notNullValue(), containsInAnyOrder(expectedIds))));
 
     }
 
