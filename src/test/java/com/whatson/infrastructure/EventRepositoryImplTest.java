@@ -51,7 +51,8 @@ public class EventRepositoryImplTest {
 
         String responseBody = FileTools.openClasspathFile("events-search-today-london.xml");
 
-        String expectedUrl = eventfulRootUrl + "/rest/events/search?date=Today&location=London&app_key=" + appKey;
+        String params = "date=This%20Week&location=London&include=categories&page_size=20&page_number=0&sort_order=date&sort_direction=ascending";
+        String expectedUrl = eventfulRootUrl + "/rest/events/search?" + params + "&app_key=" + appKey;
 
         String[] expectedIds = new String[] {"E0-001-097240868-1", "E0-001-096749091-6", "E0-001-097158315-2",
                 "E0-001-097158263-0", "E0-001-096840188-5", "E0-001-096964296-6", "E0-001-096249580-0",
@@ -62,7 +63,7 @@ public class EventRepositoryImplTest {
         server.expect(once(), requestTo(expectedUrl)).andExpect(method(HttpMethod.GET))
         .andRespond(withSuccess(responseBody, MediaType.APPLICATION_JSON));
 
-        List<EventVO> events = eventsRepository.getEventsXDaysAhead(1);
+        List<EventVO> events = eventsRepository.getEventsXDaysAhead(1, 0);
 
         List<String> eventIds = events.stream().map(e -> e.getId()).collect(Collectors.toList());
 

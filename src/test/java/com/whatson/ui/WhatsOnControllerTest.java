@@ -1,7 +1,6 @@
 package com.whatson.ui;
 
-import static org.hamcrest.Matchers.containsString;
-import static org.hamcrest.Matchers.equalTo;
+import static org.hamcrest.Matchers.*;
 import static org.springframework.test.web.client.ExpectedCount.once;
 import static org.springframework.test.web.client.match.MockRestRequestMatchers.method;
 import static org.springframework.test.web.client.match.MockRestRequestMatchers.requestTo;
@@ -62,51 +61,35 @@ public class WhatsOnControllerTest {
     }
 
     @Test
-    public void getEevnts() throws Exception {
+    public void getEvents() throws Exception {
 
         String responseBody = FileTools.openClasspathFile("events-search-today-london.xml");
-        String expectedHtmlTitle = "<h1>Welcome to Whatson</h1>";
-
-        String expectedUrl = eventfulRootUrl + "/rest/events/search?date=Today&location=London&app_key=" + appKey;
+        
+        String params = "date=This%20Week&location=London&include=categories&page_size=20&page_number=1&sort_order=date&sort_direction=ascending";
+        String expectedUrl = eventfulRootUrl + "/rest/events/search?" + params + "&app_key=" + appKey;
 
         MockRestServiceServer server = MockRestServiceServer.bindTo(restTemplate).build();
 
         server.expect(once(), requestTo(expectedUrl)).andExpect(method(HttpMethod.GET))
                 .andRespond(withSuccess(responseBody, MediaType.APPLICATION_JSON));
 
+        // assert that titles of each event are contained in html response
         mvc.perform(MockMvcRequestBuilders.get("/events").accept(MediaType.TEXT_HTML))
                 .andExpect(status().isOk())
-                .andExpect(content().string(containsString(expectedHtmlTitle)))
-                // Assert expected event id & title from test/resources/events-search-today-london.xml:
-                .andExpect(content().string(containsString("<div id=\"event-id\">E0-001-097240868-1</div>")))
-                .andExpect(content().string(containsString("<div id=\"event-title\">Walking Holiday Spain</div>")))
+                .andExpect(content().string(is(allOf(
+                        containsString("<h1>Whatson: London</h1>"),
+                        containsString(">Walking Holiday Spain<"),
+                        containsString(">Turkish Pop-Up @ Arlo &amp; Moe #hithergreen</div>"),
+                        containsString(">Orbis Access Benchmark Rally<"),
+                        containsString(">London Food Tech Week<"),
+                        containsString(">CANCELLED - Advanced Diamonds - WWR SC<"),
+                        containsString(">Boom! - West Coast Special<"),
+                        containsString(">Introducing Recreate DJ Shadow Endtroducing<"),
+                        containsString(">SLAM - Spirit of Leadership<"),
+                        containsString(">Practitioner Training Workshops<"),
+                        containsString(">Libra&#39;s Birthday Bash<")
+                ))));
 
-                .andExpect(content().string(containsString("<div id=\"event-id\">E0-001-096749091-6</div>")))
-                .andExpect(content().string(containsString("<div id=\"event-title\">Turkish Pop-Up @ Arlo &amp; Moe #hithergreen</div>")))
-
-                .andExpect(content().string(containsString("<div id=\"event-id\">E0-001-097158315-2</div>")))
-                .andExpect(content().string(containsString("<div id=\"event-title\">Orbis Access Benchmark Rally</div>")))
-
-                .andExpect(content().string(containsString("<div id=\"event-id\">E0-001-097158263-0</div>")))
-                .andExpect(content().string(containsString("<div id=\"event-title\">London Food Tech Week</div>")))
-
-                .andExpect(content().string(containsString("<div id=\"event-id\">E0-001-096840188-5</div>")))
-                .andExpect(content().string(containsString("<div id=\"event-title\">CANCELLED - Advanced Diamonds - WWR SC</div>")))
-
-                .andExpect(content().string(containsString("<div id=\"event-id\">E0-001-096964296-6</div>")))
-                .andExpect(content().string(containsString("<div id=\"event-title\">Boom! - West Coast Special</div>")))
-
-                .andExpect(content().string(containsString("<div id=\"event-id\">E0-001-096249580-0</div>")))
-                .andExpect(content().string(containsString("<div id=\"event-title\">Introducing Recreate DJ Shadow Endtroducing</div>")))
-
-                .andExpect(content().string(containsString("<div id=\"event-id\">E0-001-092943812-7@2016102118</div>")))
-                .andExpect(content().string(containsString("<div id=\"event-title\">SLAM - Spirit of Leadership</div>")))
-
-                .andExpect(content().string(containsString("<div id=\"event-id\">E0-001-096268380-3@2016102110</div>")))
-                .andExpect(content().string(containsString("<div id=\"event-title\">Practitioner Training Workshops</div>")))
-
-                .andExpect(content().string(containsString("<div id=\"event-id\">E0-001-096652742-6@2016102122</div>")))
-                .andExpect(content().string(containsString("<div id=\"event-title\">Libra&#39;s Birthday Bash</div>"))) ;
     }
 
 

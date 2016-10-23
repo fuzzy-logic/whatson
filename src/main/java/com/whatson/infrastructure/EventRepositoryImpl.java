@@ -37,16 +37,17 @@ public class EventRepositoryImpl implements EventRepository {
 
 
     @Override
-    public List<EventVO> getEventsXDaysAhead(int numOfDays) {
-        String requestUrl = rootUrl + "/rest/events/search?" + params();
-        LOGGER.trace("getEventsXDaysAhead() requestUrl=" + requestUrl);
+    public List<EventVO> getEventsXDaysAhead(int numOfDays, int page) {
+        String requestUrl = rootUrl + "/rest/events/search?" + params(page);
+        LOGGER.trace("getEventsXDaysAhead(" + numOfDays + ") requestUrl=" + requestUrl);
         ResponseEntity<String> response = restTemplate.getForEntity(requestUrl, String.class);
         EventSearchResult results = unmarshaller.unmarshall(response.getBody());
         return results.getEvents();
     }
 
-    private String params() {
-        String params = "date=Today&location=London&app_key=" + appkey;
+    private String params(int page) {
+        String params = "date=This Week&location=London&include=categories&page_size=20&page_number=" +
+                page + "&sort_order=date&sort_direction=ascending&app_key=" + appkey;
         return params;
     }
 

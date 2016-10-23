@@ -1,8 +1,13 @@
 package com.whatson.domain;
 
+import com.whatson.infrastructure.DateAdapter;
+
 import javax.xml.bind.annotation.*;
+import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 import java.io.Serializable;
+import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.List;
 
 /**
  * Jaxb value object to marshall/unmarshall eventful api xml
@@ -12,12 +17,18 @@ public class EventVO implements Serializable {
 
     private String id;
     private String title;
+    private String description;
     private String url;
+    private String venueName;
+    private String venueAddress;
     private Date startDate;
     private Date endDate;
     private Date created;
     private Date modified;
     private Image image;
+    private List<Category> categories;
+
+    private final SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
 
     public String getImageUrl() {
@@ -52,17 +63,29 @@ public class EventVO implements Serializable {
     }
 
     @XmlElement(name = "start_time")
+    @XmlJavaTypeAdapter(DateAdapter.class)
     public Date getStartDate() {
         return startDate;
+    }
+
+    public String getStartDateString() {
+        if (startDate == null) return "";
+        return dateFormat.format(startDate);
     }
 
     public void setStartDate(Date startDate) {
         this.startDate = startDate;
     }
 
+    @XmlJavaTypeAdapter(DateAdapter.class)
     @XmlElement(name = "stop_time")
     public Date getEndDate() {
         return endDate;
+    }
+
+    public String getEndDateString() {
+        if (endDate == null) return "";
+        return dateFormat.format(endDate);
     }
 
     public void setEndDate(Date endDate) {
@@ -96,8 +119,47 @@ public class EventVO implements Serializable {
         this.image = image;
     }
 
+    @XmlElement(name = "description")
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    @XmlElement(name = "venue_name")
+    public String getVenueName() {
+        return venueName;
+    }
+
+    public void setVenueName(String venueName) {
+        this.venueName = venueName;
+    }
+
+    @XmlElement(name = "venue_address")
+    public String getVenueAddress() {
+        return venueAddress;
+    }
+
+    public void setVenueAddress(String venueAddress) {
+        this.venueAddress = venueAddress;
+    }
+
+    @XmlElementWrapper(name  = "categories")
+    @XmlElement(name = "category")
+    public List<Category> getCategories() {
+        return categories;
+    }
+
+    public void setCategories(List<Category> categories) {
+        this.categories = categories;
+    }
+
     public String toString() {
-        return "[EventVO] id=" + getId() +  ", title=" + getTitle();
+        return "[EventVO] id=" + getId() +  ", title=" + getTitle() +
+                ", startDate=" + getStartDateString() +
+                ", endDate=" + getEndDateString();
     }
 
 
@@ -161,6 +223,29 @@ public class EventVO implements Serializable {
 
         public void setMedium(Image medium) {
             this.medium = medium;
+        }
+    }
+
+    private static class Category {
+        private String id;
+        private String name;
+
+        @XmlElement(name = "id")
+        public String getId() {
+            return id;
+        }
+
+        public void setId(String id) {
+            this.id = id;
+        }
+
+        @XmlElement(name = "name")
+        public String getName() {
+            return name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
         }
     }
 }

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<search>
+  <total_items>1</total_items>
+  <page_size>10</page_size>
+  <page_count>1</page_count>
+  <page_number>1</page_number>
+  <page_items></page_items>
+  <first_item></first_item>
+  <last_item></last_item>
+  <search_time>0.5</search_time>
+  <events>
+    <event id="ABC">
+      <title>Walking Holiday Spain</title>
+      <url>http://london.eventful.com/events/walking-holiday-spain-/E0-001-097240868-1</url>
+      <description>Andalusia would be perfect for you to enjoy most memorable moments of your life.</description>
+      <start_time>2016-10-21 13:00:00</start_time>
+      <stop_time>2016-10-21 16:00:00</stop_time>
+      <venue_id>V0-001-009383585-0</venue_id>
+      <venue_url>http://london.eventful.com/venues/london-greater-london-united-kingdom-/V0-001-009383585-0?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</venue_url>
+      <venue_name>London, Greater London, United Kingdom</venue_name>
+      <venue_display>1</venue_display>
+      <venue_address>London, Greater London, United Kingdom</venue_address>
+      <city_name>London</city_name>
+      <region_name>Greater London</region_name>
+      <region_abbr>London</region_abbr>
+      <postal_code></postal_code>
+      <country_name>United Kingdom</country_name>
+      <country_abbr2>GB</country_abbr2>
+      <country_abbr>GBR</country_abbr>
+      <created>2016-10-21 01:22:00</created>
+      <owner>walkspain72fafd6</owner>
+      <modified>2016-10-21 01:24:18</modified>
+      <image>
+        <url>http://s4.evcdn.com/images/small/I0-001/034/270/143-7.jpeg_/walking-holiday-spain-43.jpeg</url>
+        <width>48</width>
+        <height>48</height>
+        <caption></caption>
+        <thumb>
+          <url>http://s4.evcdn.com/images/thumb/I0-001/034/270/143-7.jpeg_/walking-holiday-spain-43.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </thumb>
+        <small>
+          <url>http://s4.evcdn.com/images/small/I0-001/034/270/143-7.jpeg_/walking-holiday-spain-43.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </small>
+        <medium>
+          <url>http://s4.evcdn.com/images/medium/I0-001/034/270/143-7.jpeg_/walking-holiday-spain-43.jpeg</url>
+          <width>128</width>
+          <height>128</height>
+        </medium>
+      </image>
+    </event>
+  </events>
+</search>

@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 /**
- * Created by gawain on 22/10/2016.
+ * Application event service implementing application logic
  */
 @Service
 public class EventServiceImpl implements EventService {
@@ -17,7 +17,7 @@ public class EventServiceImpl implements EventService {
     private EventRepository eventRepository;
 
     @Override
-    public List<EventVO> getNext7DaysEvents() {
-        return eventRepository.getEventsXDaysAhead(7);
+    public List<EventVO> getNext7DaysEvents(int page) {
+        return eventRepository.getEventsXDaysAhead(7, page);
     }
 }

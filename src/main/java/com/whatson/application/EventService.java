@@ -5,9 +5,9 @@ import com.whatson.domain.EventVO;
 import java.util.List;
 
 /**
- * Created by gawain on 22/10/2016.
+ * Event application service interface
  */
 public interface EventService {
 
-    List<EventVO> getNext7DaysEvents();
+    List<EventVO> getNext7DaysEvents(int page);
 }

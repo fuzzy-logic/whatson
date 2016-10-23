@@ -9,6 +9,6 @@ import java.util.List;
  */
 public interface EventRepository {
 
-     public List<EventVO> getEventsXDaysAhead(int numOfDays);
+     public List<EventVO> getEventsXDaysAhead(int numOfDays, int page);
 
 }
