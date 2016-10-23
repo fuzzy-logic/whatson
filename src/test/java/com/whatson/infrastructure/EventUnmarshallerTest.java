@@ -8,6 +8,9 @@ import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
@@ -33,9 +36,10 @@ public class EventUnmarshallerTest {
 
     @Test
     public void unmarshallSampleEventfulXml() throws Exception {
-        Resource resource = new ClassPathResource("sample-events-search.xml");
         String[] expectedIds = new String[] {"123", "234", "345"};
-        String sampleEventfulXml = resource.getFile().toString();
+        String sampleEventfulXml = openClasspathFile("sample-events-search.xml");
+
+        //System.out.println("sampleEventfulXml: " +  sampleEventfulXml);
 
         EventSearchResult results = eventUnmarshaller.unmarshall(sampleEventfulXml);
         List<EventVO> events = results.getEvents();
@@ -47,5 +51,27 @@ public class EventUnmarshallerTest {
         assertThat(events, is(allOf(notNullValue(), instanceOf(ArrayList.class), hasSize(3))));
         assertThat(eventIds, contains(expectedIds));
 
+    }
+
+
+    private String openClasspathFile(String filename) {
+
+        Resource resource = new ClassPathResource(filename);
+        String content = "";
+
+        try{
+            InputStream is = resource.getInputStream();
+            BufferedReader reader = new BufferedReader(new InputStreamReader(is));
+            while (true) {
+                String line = reader.readLine();
+                if (line == null)
+                    break;
+                content += line + '\n';
+            }
+            reader.close();
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+        return content;
     }
 }

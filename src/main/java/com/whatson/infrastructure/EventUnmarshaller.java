@@ -3,8 +3,11 @@ package com.whatson.infrastructure;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.oxm.jaxb.Jaxb2Marshaller;
 
+import javax.xml.transform.Source;
 import javax.xml.transform.stream.StreamSource;
+import java.io.ByteArrayInputStream;
 import java.io.FileInputStream;
+import java.io.InputStream;
 import java.util.List;
 
 /**
@@ -13,18 +16,29 @@ import java.util.List;
 public class EventUnmarshaller implements Unmarshaller<EventSearchResult> {
 
     @Override
-    public EventSearchResult unmarshall(String xmlfile) {
-        return convertFromXMLToObject(xmlfile);
+    public EventSearchResult unmarshall(String xml) {
+        try {
+            InputStream is = new ByteArrayInputStream(xml.getBytes("UTF-8"));
+            return convertFromXMLToObject(is);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+
     }
+
+    @Override
+    public EventSearchResult unmarshall(InputStream xml) {
+        return convertFromXMLToObject(xml);
+    }
+
 
     @Autowired
     private Jaxb2Marshaller marshaller;
 
-    public EventSearchResult convertFromXMLToObject(String xmlfile) throws RuntimeException {
+    public EventSearchResult convertFromXMLToObject(InputStream is) throws RuntimeException {
 
-        FileInputStream is = null;
+
         try {
-            is = new FileInputStream(xmlfile);
             EventSearchResult results = (EventSearchResult) marshaller.unmarshal(new StreamSource(is));
             return results;
         } catch(Exception e) {

@@ -1,10 +1,19 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Getting Started: Serving Web Content</title>
+    <title>Whatson in London next 7 days</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
 <body>
-<p th:text="'Title: ' + ${title}" />
+<title th:text="'Title: ' + ${title}"> title </title>
+
+<div id="events">
+    <div id="event" th:each="event : ${events}">
+        <div id="field" th:text="${event.id}">id</div>
+        <div id="field" th:text="${event.title}">title</div>
+        <div id="field" th:text="${event.url}">url</div>
+    </div>
+</div>
+
 </body>
 </html>
