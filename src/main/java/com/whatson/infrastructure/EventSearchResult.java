@@ -1,5 +1,7 @@
 package com.whatson.infrastructure;
 
+import com.whatson.domain.EventVO;
+
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlRootElement;

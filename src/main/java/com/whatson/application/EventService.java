@@ -1,6 +1,6 @@
 package com.whatson.application;
 
-import com.whatson.infrastructure.EventVO;
+import com.whatson.domain.EventVO;
 
 import java.util.List;
 

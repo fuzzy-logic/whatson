@@ -1,7 +1,6 @@
 package com.whatson.infrastructure;
 
-import com.whatson.domain.Event;
-import org.springframework.http.ResponseEntity;
+import com.whatson.domain.EventVO;
 
 import java.util.List;
 

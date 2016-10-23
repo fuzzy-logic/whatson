@@ -1,24 +1,19 @@
 package com.whatson.infrastructure;
 
-import com.whatson.domain.Event;
-import org.hamcrest.Matcher;
+import com.whatson.domain.EventVO;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.core.io.ClassPathResource;
-import org.springframework.core.io.Resource;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.MediaType;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.client.MockRestServiceServer;
 import org.springframework.web.client.RestTemplate;
+import test.utils.FileTools;
 
-import java.io.BufferedReader;
-import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -54,7 +49,7 @@ public class EventRepositoryImplTest {
     @Test
     public void getNext1DayEvents() throws Exception {
 
-        String responseBody = openClasspathFile("events-search-today-london.xml");
+        String responseBody = FileTools.openClasspathFile("events-search-today-london.xml");
 
         String expectedUrl = eventfulRootUrl + "/rest/events/search?date=Today&location=London&app_key=" + appKey;
 
@@ -75,27 +70,6 @@ public class EventRepositoryImplTest {
         assertThat(events.size(), is(equalTo(10)));
         assertThat(eventIds, is(allOf(notNullValue(), containsInAnyOrder(expectedIds))));
 
-    }
-
-    private String openClasspathFile(String filename) {
-
-        Resource resource = new ClassPathResource(filename);
-        String content = "";
-
-        try{
-            InputStream is = resource.getInputStream();
-            BufferedReader reader = new BufferedReader(new InputStreamReader(is));
-            while (true) {
-                String line = reader.readLine();
-                if (line == null)
-                    break;
-                content += line + '\n';
-            }
-            reader.close();
-        }catch(Exception e){
-            e.printStackTrace();
-        }
-        return content;
     }
 
 }

@@ -3,9 +3,8 @@ package com.whatson;
 /**
  * Created by gawain on 21/10/2016.
  */
-import java.util.Arrays;
-import java.util.List;
 
+import com.whatson.domain.EventVO;
 import com.whatson.infrastructure.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,7 +13,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.PropertySource;
-import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 import org.springframework.oxm.jaxb.Jaxb2Marshaller;
 import org.springframework.web.client.RestTemplate;
 

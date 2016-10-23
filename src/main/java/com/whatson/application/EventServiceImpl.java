@@ -1,8 +1,7 @@
 package com.whatson.application;
 
-import com.whatson.application.EventService;
 import com.whatson.infrastructure.EventRepository;
-import com.whatson.infrastructure.EventVO;
+import com.whatson.domain.EventVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

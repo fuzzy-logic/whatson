@@ -1,19 +1,53 @@
-<!DOCTYPE HTML>
-<html xmlns:th="http://www.thymeleaf.org">
-<head>
-    <title>Whatson in London next 7 days</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-</head>
-<body>
-<title th:text="'Title: ' + ${title}"> title </title>
 
-<div id="events">
-    <div id="event" th:each="event : ${events}">
-        <div id="field" th:text="${event.id}">id</div>
-        <div id="field" th:text="${event.title}">title</div>
-        <div id="field" th:text="${event.url}">url</div>
+<!DOCTYPE html>
+<html  xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge; text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Whatson in London next 7 days</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div id="whatson-mast" class="jumobotron">
+        <h1 th:text="'Welcome to ' + ${title}"> title </h1>
+        <p>Events fot next seven days</p>
+
     </div>
+
+
+    <div class="page-header"></div>
+
+    <div id="whatson" class=".container-fluid">
+
+
+        <div id="events" class="panel panel-default">
+            <div id="event" class="panel-body" th:each="event : ${events}">
+                <div id="event-id" th:text="${event.id}">id</div>
+                <div id="event-title" th:text="${event.title}">title</div>
+                <div id="event-image"> <img th:src="${event.imageUrl}"/></div>
+            </div>
+        </div>
+    </div>
+
 </div>
+
+
+
+<!-- Placed at the end of the document so the pages load faster -->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"/>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"/>
 
 </body>
 </html>
