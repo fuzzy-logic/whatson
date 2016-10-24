@@ -1,6 +1,6 @@
 # whatson
 
-Simple web application to retreive events from api.eventful.com
+Simple web application to retrieve events from http://api.eventful.com
 
 
 This application was structured using Domain Driven Design Principles with the following layers:
@@ -11,21 +11,29 @@ This application was structured using Domain Driven Design Principles with the f
 * Infrastruture (typically utilities and IO)
 
 
+## Features & Scope
 
-### Build and run whatson with maven:
+The /events.html will present a dropdown list of categories from which to see events occuring ove the next 7 days.
+
+
+### Build and run Whatson with maven:
 
 ```
 mvn package && java -jar target/whatson-0.0.1.jar
 ```
 
-Now open a browser and go to address:
+## Take a look
+
+Open a browser and go to address:
 
 ```
-http://loclahost:8080
+http://localhost:8080
 ```
 
 
 
+
+# Misc
 
 ### Quick build and run skipping tests:
 
