@@ -16,7 +16,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import java.util.List;
 
 /**
- * Created by gawain on 21/10/2016.
+ * Whatson event controller
+ *
+ *
  */
 
 

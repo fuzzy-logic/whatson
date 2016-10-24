@@ -30,6 +30,8 @@ import static  org.springframework.test.web.client.ExpectedCount.*;
  *  1.) Replace rest template with HttpRequest bean that return InputSource to avoid multiple transforms of response
  *  2.) Add more than just happy path tests eg: null responses, timeoutes, etc..
  *  3.) RestTemplate expectatiosn are set in controller & repository
+ *  4.) Pre fetch event data for performance
+ *  5.) Use search Results object to improve pagination behaviour
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest

@@ -7,7 +7,7 @@ import javax.xml.bind.annotation.XmlSeeAlso;
 import java.util.List;
 
 /**
- * Created by gawain on 22/10/2016.
+ * Represents search results wrapper object returned by eventful api
  */
 
 @XmlRootElement(name = "search")

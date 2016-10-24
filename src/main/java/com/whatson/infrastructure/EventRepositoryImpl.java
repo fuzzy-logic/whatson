@@ -17,9 +17,6 @@ import java.util.List;
  *
  * http://api.eventful.com/docs/events/search
  *
- * TODO
- * 1.) Pre fetch event data for performance
- * 2.) refactor restTemplate as is not optimal to request convert to string and back to stream
  */
 @Service
 public class EventRepositoryImpl implements EventRepository {

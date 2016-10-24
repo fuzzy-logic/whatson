@@ -1,7 +1,7 @@
 package com.whatson;
 
 /**
- * Created by gawain on 21/10/2016.
+ * Spring boot application main class
  */
 
 import com.whatson.infrastructure.CategoriesVO;
