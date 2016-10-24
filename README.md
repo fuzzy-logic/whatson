@@ -1,35 +1,36 @@
 # whatson
 
+Simple web application to retreive events from api.eventful.com
 
-### Build executable jar file
+
+This application was structured using Domain Driven Design Principles with the following layers:
+
+* UI (User interface & presentation)
+* Application (Apllication Logic and Services as entry point)
+* Domain (Business logic)
+* Infrastruture (typically utilities and IO)
+
+
+
+### Build and run whatson with maven:
 
 ```
-mvn package
+mvn package && java -jar target/whatson-0.0.1.jar
 ```
 
-### Build executable and skip tests
+Now open a browser and go to address:
 
 ```
-mvn package  -Dmaven.test.skip=true
+http://loclahost:8080
 ```
 
-### Run spring boot webapp
 
-```
-java -jar target/whatson-0.0.1.jar
-```
 
-### ALl in one command
+
+### Quick build and run skipping tests:
 
 ```
 mvn package  -Dmaven.test.skip=true && java -jar target/whatson-0.0.1.jar
 ```
-
-
-
-
-# Sample Curl commands:
-
-curl "http://api.eventful.com/rest/events/search?category=music&date=This%20Week&location=London&include=categories&page_size=10&page_number=1&sort_order=date&sort_direction=ascending&app_key=9WmHkKmHCDvrxGLX" > src/main/test/resources/events-search-music-this-week.xml
 
 

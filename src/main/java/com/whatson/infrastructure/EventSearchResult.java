@@ -1,14 +1,10 @@
-package com.whatson.domain;
-
-import com.whatson.domain.EventVO;
+package com.whatson.infrastructure;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlSeeAlso;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 /**
  * Created by gawain on 22/10/2016.

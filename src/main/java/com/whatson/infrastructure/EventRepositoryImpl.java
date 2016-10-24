@@ -1,10 +1,6 @@
 package com.whatson.infrastructure;
 
 
-import com.whatson.domain.CategoriesVO;
-import com.whatson.domain.EventSearchResult;
-import com.whatson.domain.EventVO;
-import org.joda.time.DateTime;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,16 +10,16 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import java.text.SimpleDateFormat;
-import java.time.LocalTime;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 /**
  * Fetches Events data from eventful http api
  *
  * http://api.eventful.com/docs/events/search
+ *
+ * TODO
+ * 1.) Pre fetch event data for performance
+ * 2.) refactor restTemplate as is not optimal to request convert to string and back to stream
  */
 @Service
 public class EventRepositoryImpl implements EventRepository {
@@ -39,13 +35,11 @@ public class EventRepositoryImpl implements EventRepository {
     @Autowired
     private Unmarshaller unmarshaller;
 
-
-    //TODO restTemplate is not optimal to request convert to string and back to stream
     @Autowired
     private RestTemplate restTemplate;
 
     @Override
-    @Cacheable("events") //TODO preload results at boot time
+    @Cacheable("events")
     public List<EventVO> getEventsXDaysAhead(String categoryId, int numOfDays, int page) {
         String requestUrl = rootUrl + "/rest/events/search?" + params(categoryId, page);
         LOGGER.trace("getEventsXDaysAhead(" + numOfDays + ") requestUrl=" + requestUrl);

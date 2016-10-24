@@ -1,6 +1,4 @@
-package com.whatson.domain;
-
-import com.whatson.infrastructure.DateAdapter;
+package com.whatson.infrastructure;
 
 import javax.xml.bind.annotation.*;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;

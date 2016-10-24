@@ -6,9 +6,9 @@ import java.util.Date;
 
 
 /**
- * Eventful dates adapter
+ * Eventful event dates formatting adapter
  *
- * FOrmat: "2016-10-21 13:00:00"
+ * Format: "2016-10-21 13:00:00"
  *
  */
 public class DateAdapter extends XmlAdapter<String, Date> {

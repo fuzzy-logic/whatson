@@ -1,7 +1,7 @@
 package com.whatson.application;
 
-import com.whatson.domain.CategoriesVO;
-import com.whatson.domain.EventVO;
+import com.whatson.infrastructure.CategoriesVO;
+import com.whatson.infrastructure.EventVO;
 
 import java.util.List;
 

@@ -4,9 +4,9 @@ package com.whatson;
  * Created by gawain on 21/10/2016.
  */
 
-import com.whatson.domain.CategoriesVO;
-import com.whatson.domain.EventSearchResult;
-import com.whatson.domain.EventVO;
+import com.whatson.infrastructure.CategoriesVO;
+import com.whatson.infrastructure.EventSearchResult;
+import com.whatson.infrastructure.EventVO;
 import com.whatson.infrastructure.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

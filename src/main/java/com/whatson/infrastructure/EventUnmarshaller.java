@@ -1,6 +1,5 @@
 package com.whatson.infrastructure;
 
-import com.whatson.domain.EventSearchResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.oxm.jaxb.Jaxb2Marshaller;
 
@@ -9,7 +8,10 @@ import java.io.ByteArrayInputStream;
 import java.io.InputStream;
 
 /**
- * Created by gawain on 22/10/2016.
+ * TODO
+ * 1.) Refactor in to simpler helper class
+ * 2.) add generic type to method rather than class
+ *
  */
 public class EventUnmarshaller<T> implements Unmarshaller<T> {
 

@@ -1,8 +1,8 @@
 package com.whatson.application;
 
-import com.whatson.domain.CategoriesVO;
+import com.whatson.infrastructure.CategoriesVO;
 import com.whatson.infrastructure.EventRepository;
-import com.whatson.domain.EventVO;
+import com.whatson.infrastructure.EventVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -11,9 +11,8 @@ import java.util.List;
 /**
  * Application event service implementing application logic
  *
- * Use of this service conforms to DDD layers: UI, Application, Domain, Infrastructure
- *
- * This service not currently tested as it's  a simple one liner and my time is limited
+ * TODO
+ * 1.) Write test for this service (not done as it's  a simple one liner and my time is very limited)
  */
 @Service
 public class EventServiceImpl implements EventService {

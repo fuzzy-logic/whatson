@@ -1,4 +1,4 @@
-package com.whatson.domain;
+package com.whatson.infrastructure;
 
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlElementWrapper;
@@ -6,7 +6,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 import java.util.List;
 
 /**
- *
+ * Jaxb Value object for marhsalling to eventful category format
  */
 @XmlRootElement(name = "categories")
 public class CategoriesVO {

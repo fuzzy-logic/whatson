@@ -8,15 +8,13 @@ import static org.springframework.test.web.client.match.MockRestRequestMatchers.
 import static org.springframework.test.web.client.response.MockRestResponseCreators.withSuccess;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
-import com.whatson.infrastructure.EventRepository;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.core.io.ClassPathResource;
-import org.springframework.core.io.Resource;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.MediaType;
 import org.springframework.test.context.junit4.SpringRunner;
@@ -26,12 +24,16 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.web.client.RestTemplate;
 import test.utils.FileTools;
 
-import java.io.BufferedReader;
-import java.io.InputStream;
-import java.io.InputStreamReader;
+
 
 /**
  * Test Whatson Mvc Controller
+ *
+ * TODO:
+ * 1.) test data in controller model and remove crude contains("") expectations - return ModalAndView from Controller
+ * 2.) Replace rest template with HttpRequest bean that return InputSource to avoid multiple transforms of response
+ * 3.) Add more than just happy path tests eg: null responses, timeoutes, etc..
+ *
  */
 
 
@@ -66,19 +68,18 @@ public class WhatsOnControllerTest {
         String responseBody = FileTools.openClasspathFile("events-search-today-london.xml");
         String category = "music";
         String params = "category=" + category + "&date=This%20Week&location=London&include=categories&page_size=20&page_number=1&sort_order=date&sort_direction=ascending";
-        String expectedUrl = eventfulRootUrl + "/rest/events/search?" + params + "&app_key=" + appKey;
+        String expectedEventUrl = eventfulRootUrl + "/rest/events/search?" + params + "&app_key=" + appKey;
 
         String categoryXml = FileTools.openClasspathFile("categories.xml");
-        String categoryUrl = eventfulRootUrl + "/rest/categories/list?app_key=" + appKey;
+        String expectedCategoryUrl = eventfulRootUrl + "/rest/categories/list?app_key=" + appKey;
 
         MockRestServiceServer server = MockRestServiceServer.bindTo(restTemplate).build();
 
-        server.expect(once(), requestTo(expectedUrl)).andExpect(method(HttpMethod.GET))
+        server.expect(once(), requestTo(expectedEventUrl)).andExpect(method(HttpMethod.GET))
                 .andRespond(withSuccess(responseBody, MediaType.APPLICATION_JSON));
 
-        server.expect(once(), requestTo(categoryUrl)).andExpect(method(HttpMethod.GET))
+        server.expect(once(), requestTo(expectedCategoryUrl)).andExpect(method(HttpMethod.GET))
                 .andRespond(withSuccess(categoryXml, MediaType.APPLICATION_JSON));
-
 
 
         // assert that titles of each event are contained in html response
@@ -102,9 +103,5 @@ public class WhatsOnControllerTest {
                 .andExpect(model().attributeExists("selectedCategory"))
                 .andExpect(model().attributeExists("categories"));
     }
-
-
-
-
 
 }

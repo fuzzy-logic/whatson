@@ -1,8 +1,5 @@
 package com.whatson.infrastructure;
 
-import com.whatson.domain.CategoriesVO;
-import com.whatson.domain.EventSearchResult;
-import com.whatson.domain.EventVO;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
