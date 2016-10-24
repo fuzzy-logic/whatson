@@ -26,7 +26,7 @@ public class EventVO implements Serializable {
     private Date created;
     private Date modified;
     private Image image;
-    private List<Category> categories;
+    private List<CategoriesVO.Category> categories;
 
     private final SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
@@ -148,12 +148,20 @@ public class EventVO implements Serializable {
 
     @XmlElementWrapper(name  = "categories")
     @XmlElement(name = "category")
-    public List<Category> getCategories() {
+    public List<CategoriesVO.Category> getCategories() {
         return categories;
     }
 
-    public void setCategories(List<Category> categories) {
+    public void setCategories(List<CategoriesVO.Category> categories) {
         this.categories = categories;
+    }
+
+    public String[] getCategoryIds() {
+        String[] categories = new String[getCategories().size()];
+        for (int i = 0 ; i < getCategories().size() ; i++) {
+            categories[i] = getCategories().get(i).getId();
+        }
+        return categories;
     }
 
     public String toString() {
@@ -226,26 +234,4 @@ public class EventVO implements Serializable {
         }
     }
 
-    private static class Category {
-        private String id;
-        private String name;
-
-        @XmlElement(name = "id")
-        public String getId() {
-            return id;
-        }
-
-        public void setId(String id) {
-            this.id = id;
-        }
-
-        @XmlElement(name = "name")
-        public String getName() {
-            return name;
-        }
-
-        public void setName(String name) {
-            this.name = name;
-        }
-    }
 }

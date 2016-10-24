@@ -64,7 +64,7 @@ public class WhatsOnControllerTest {
     public void getEvents() throws Exception {
 
         String responseBody = FileTools.openClasspathFile("events-search-today-london.xml");
-        
+
         String params = "date=This%20Week&location=London&include=categories&page_size=20&page_number=1&sort_order=date&sort_direction=ascending";
         String expectedUrl = eventfulRootUrl + "/rest/events/search?" + params + "&app_key=" + appKey;
 

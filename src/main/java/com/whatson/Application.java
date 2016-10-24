@@ -4,6 +4,8 @@ package com.whatson;
  * Created by gawain on 21/10/2016.
  */
 
+import com.whatson.domain.CategoriesVO;
+import com.whatson.domain.EventSearchResult;
 import com.whatson.domain.EventVO;
 import com.whatson.infrastructure.*;
 import org.slf4j.Logger;
@@ -46,7 +48,7 @@ public class Application {
     @Bean
     public Jaxb2Marshaller jaxb2Marshaller() {
         Jaxb2Marshaller jaxb2Marshaller = new Jaxb2Marshaller();
-        jaxb2Marshaller.setClassesToBeBound(EventSearchResult.class, EventVO.class);
+        jaxb2Marshaller.setClassesToBeBound(EventSearchResult.class, EventVO.class, CategoriesVO.class);
         return jaxb2Marshaller;
     }
 

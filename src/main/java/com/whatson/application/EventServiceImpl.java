@@ -1,5 +1,6 @@
 package com.whatson.application;
 
+import com.whatson.domain.CategoriesVO;
 import com.whatson.infrastructure.EventRepository;
 import com.whatson.domain.EventVO;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,5 +20,15 @@ public class EventServiceImpl implements EventService {
     @Override
     public List<EventVO> getNext7DaysEvents(int page) {
         return eventRepository.getEventsXDaysAhead(7, page);
+    }
+
+    @Override
+    public List<EventVO> getTodayEvents(String categoryId, int page) {
+        return null;
+    }
+
+    @Override
+    public List<CategoriesVO.Category> getCategories() {
+        return null;
     }
 }

@@ -52,6 +52,16 @@
           <height>128</height>
         </medium>
       </image>
+      <categories>
+        <category>
+          <id>support</id>
+          <name>Health &amp;amp; Wellness</name>
+        </category>
+        <category>
+          <id>outdoors_recreation</id>
+          <name>Outdoors &amp;amp; Recreation</name>
+        </category>
+      </categories>
     </event>
   </events>
 </search>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<categories>
+    <category>
+        <id>music</id>
+        <name>Concerts &amp;amp; Tour Dates</name>
+        <event_count></event_count>
+    </category>
+    <category>
+        <id>conference</id>
+        <name>Conferences &amp;amp; Tradeshows</name>
+        <event_count></event_count>
+    </category>
+    <category>
+        <id>comedy</id>
+        <name>Comedy</name>
+        <event_count></event_count>
+    </category>
+    <category>
+        <id>learning_education</id>
+        <name>Education</name>
+        <event_count></event_count>
+    </category>
+    <category>
+        <id>family_fun_kids</id>
+        <name>Kids &amp;amp; Family</name>
+        <event_count></event_count>
+    </category>
+    <category>
+        <id>festivals_parades</id>
+        <name>Festivals</name>
+        <event_count></event_count>
+    </category>
+    <category>
+        <id>movies_film</id>
+        <name>Film</name>
+        <event_count></event_count>
+    </category>
+    <category>
+        <id>food</id>
+        <name>Food &amp;amp; Wine</name>
+        <event_count></event_count>
+    </category>
+    <category>
+        <id>fundraisers</id>
+        <name>Fundraising &amp;amp; Charity</name>
+        <event_count></event_count>
+    </category>
+    <category>
+        <id>art</id>
+        <name>Art Galleries &amp;amp; Exhibits</name>
+        <event_count></event_count>
+    </category>
+    <category>
+        <id>support</id>
+        <name>Health &amp;amp; Wellness</name>
+        <event_count></event_count>
+    </category>
+    <category>
+        <id>holiday</id>
+        <name>Holiday</name>
+        <event_count></event_count>
+    </category>
+    <category>
+        <id>books</id>
+        <name>Literary &amp;amp; Books</name>
+        <event_count></event_count>
+    </category>
+    <category>
+        <id>attractions</id>
+        <name>Museums &amp;amp; Attractions</name>
+        <event_count></event_count>
+    </category>
+    <category>
+        <id>community</id>
+        <name>Neighborhood</name>
+        <event_count></event_count>
+    </category>
+    <category>
+        <id>business</id>
+        <name>Business &amp;amp; Networking</name>
+        <event_count></event_count>
+    </category>
+    <category>
+        <id>singles_social</id>
+        <name>Nightlife &amp;amp; Singles</name>
+        <event_count></event_count>
+    </category>
+    <category>
+        <id>schools_alumni</id>
+        <name>University &amp;amp; Alumni</name>
+        <event_count></event_count>
+    </category>
+    <category>
+        <id>clubs_associations</id>
+        <name>Organizations &amp;amp; Meetups</name>
+        <event_count></event_count>
+    </category>
+    <category>
+        <id>outdoors_recreation</id>
+        <name>Outdoors &amp;amp; Recreation</name>
+        <event_count></event_count>
+    </category>
+    <category>
+        <id>performing_arts</id>
+        <name>Performing Arts</name>
+        <event_count></event_count>
+    </category>
+    <category>
+        <id>animals</id>
+        <name>Pets</name>
+        <event_count></event_count>
+    </category>
+    <category>
+        <id>politics_activism</id>
+        <name>Politics &amp;amp; Activism</name>
+        <event_count></event_count>
+    </category>
+    <category>
+        <id>sales</id>
+        <name>Sales &amp;amp; Retail</name>
+        <event_count></event_count>
+    </category>
+    <category>
+        <id>science</id>
+        <name>Science</name>
+        <event_count></event_count>
+    </category>
+    <category>
+        <id>religion_spirituality</id>
+        <name>Religion &amp;amp; Spirituality</name>
+        <event_count></event_count>
+    </category>
+    <category>
+        <id>sports</id>
+        <name>Sports</name>
+        <event_count></event_count>
+    </category>
+    <category>
+        <id>technology</id>
+        <name>Technology</name>
+        <event_count></event_count>
+    </category>
+    <category>
+        <id>other</id>
+        <name>Other &amp;amp; Miscellaneous</name>
+        <event_count></event_count>
+    </category>
+</categories>

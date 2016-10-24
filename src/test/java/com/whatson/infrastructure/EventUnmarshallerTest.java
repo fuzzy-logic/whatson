@@ -1,5 +1,7 @@
 package com.whatson.infrastructure;
 
+import com.whatson.domain.CategoriesVO;
+import com.whatson.domain.EventSearchResult;
 import com.whatson.domain.EventVO;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -26,14 +28,16 @@ import static org.junit.Assert.assertThat;
 public class EventUnmarshallerTest {
 
     @Autowired
-    Unmarshaller<EventSearchResult> eventUnmarshaller;
+    Unmarshaller eventUnmarshaller;
+
+
 
     @Test
     public void unmarshallSampleEventfulXml() throws Exception {
         String[] expectedIds = new String[] {"123", "234", "345"};
         String sampleEventfulXml = FileTools.openClasspathFile("sample-events-search.xml");
 
-        EventSearchResult results = eventUnmarshaller.unmarshall(sampleEventfulXml);
+        EventSearchResult results = (EventSearchResult) eventUnmarshaller.unmarshall(sampleEventfulXml);
         List<EventVO> events = results.getEvents();
         List<String> eventIds = results.getEvents().stream().map(e -> e.getId()).collect(Collectors.toList());
 
@@ -54,7 +58,7 @@ public class EventUnmarshallerTest {
         String[] expectedIds = new String[] {"ABC"};
         String sampleEventfulXml = FileTools.openClasspathFile("single-event-search.xml");
 
-        EventSearchResult results = eventUnmarshaller.unmarshall(sampleEventfulXml);
+        EventSearchResult results = (EventSearchResult) eventUnmarshaller.unmarshall(sampleEventfulXml);
         List<EventVO> events = results.getEvents();
 
         assertThat(results.getTotalItems(), is(equalTo(1)));
@@ -72,6 +76,22 @@ public class EventUnmarshallerTest {
             assertThat(event.getImageUrl(), is(equalTo("http://s4.evcdn.com/images/small/I0-001/034/270/143-7.jpeg_/walking-holiday-spain-43.jpeg")));
 
         }
+
+    }
+
+    @Test
+    public void unmarshallCategories() throws Exception {
+        String[] expectedIds = new String[]{"music", "conference", "comedy" , "learning_education", "family_fun_kids", "festivals_parades",
+                "movies_film", "food", "fundraisers", "art", "support", "holiday", "books", "attractions", "community",
+                "business", "singles_social", "schools_alumni", "clubs_associations", "outdoors_recreation", "performing_arts",
+                "animals", "politics_activism", "sales", "science", "religion_spirituality", "sports", "technology", "other"};
+        String categoriesXml = FileTools.openClasspathFile("categories.xml");
+
+        CategoriesVO categories = (CategoriesVO) eventUnmarshaller.unmarshall(categoriesXml);
+
+        List<String> categoryIds = categories.getCategories().stream().map(c -> c.getId()).collect(Collectors.toList());
+
+        assertThat(categoryIds, contains(expectedIds));
 
     }
 
