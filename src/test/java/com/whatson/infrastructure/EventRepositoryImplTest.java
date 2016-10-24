@@ -52,32 +52,34 @@ public class EventRepositoryImplTest {
     String appKey;
 
     @Test
-    public void getNext1DayEvents() throws Exception {
+    public void getEventsThisWeekByCategory() throws Exception {
 
-        String responseBody = FileTools.openClasspathFile("events-search-today-london.xml");
-
-        String params = "date=This%20Week&location=London&include=categories&page_size=20&page_number=0&sort_order=date&sort_direction=ascending";
+        String responseBody = FileTools.openClasspathFile("events-search-music-this-week.xml");
+        String category = "music";
+        String params = "category=" + category + "&date=This%20Week&location=London&include=categories&page_size=20&page_number=0&sort_order=date&sort_direction=ascending";
         String expectedUrl = eventfulRootUrl + "/rest/events/search?" + params + "&app_key=" + appKey;
-
-        String[] expectedIds = new String[] {"E0-001-097240868-1", "E0-001-096749091-6", "E0-001-097158315-2",
-                "E0-001-097158263-0", "E0-001-096840188-5", "E0-001-096964296-6", "E0-001-096249580-0",
-                "E0-001-092943812-7@2016102118", "E0-001-096268380-3@2016102110", "E0-001-096652742-6@2016102122"};
+        // Event IDs from  events-search-music-this-week.xml
+        String[] expectedIds = new String[] {"E0-001-094140110-7", "E0-001-094140096-8", "E0-001-094275201-7",
+                "E0-001-096113385-1", "E0-001-096099938-4", "E0-001-097136508-8", "E0-001-096114618-3",
+                "E0-001-090660787-0", "E0-001-096940875-1", "E0-001-095323702-8"};
 
         MockRestServiceServer server = MockRestServiceServer.bindTo(restTemplate).build();
 
         server.expect(once(), requestTo(expectedUrl)).andExpect(method(HttpMethod.GET))
         .andRespond(withSuccess(responseBody, MediaType.APPLICATION_JSON));
 
-        List<EventVO> events = eventsRepository.getEventsXDaysAhead(1, 0);
+        List<EventVO> events = eventsRepository.getEventsXDaysAhead(category, 1, 0);
 
         List<String> eventIds = events.stream().map(e -> e.getId()).collect(Collectors.toList());
 
         assertThat(events, is(allOf(notNullValue(), instanceOf(ArrayList.class))));
         assertThat(events.size(), is(equalTo(10)));
+
         assertThat(eventIds, is(allOf(notNullValue(), containsInAnyOrder(expectedIds))));
 
     }
 
+    /*
     @Test
     public void getEventsByCategory() throws Exception {
 
@@ -107,6 +109,7 @@ public class EventRepositoryImplTest {
 
 
     }
+    */
 
     @Test
     public void getCategories() throws Exception {

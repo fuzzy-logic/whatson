@@ -19,22 +19,40 @@
 <div class="container">
 
     <div id="whatson-mast" class="jumobotron">
-        <h1 th:text="${title} + ': London'"> title </h1>
-        <p>Events fot next seven days</p>
-
+        <h1>Whatson: London</h1>
+        <h3 th:inline="text" >
+            Events for category ID "[[${selectedCategory}]]" over next seven days...
+        </h3>
     </div>
+
+
+
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Choose an event category
+            <span class="caret"></span></button>
+        <ul class="dropdown-menu" >
+            <li  th:each="category : ${categories}">
+                <a  th:href="'/events?category=' + ${category.id}" th:text="${category.id}">category</a>
+            </li>
+        </ul>
+    </div>
+
 
     <div id="whatson" class=".container-fluid">
 
 
         <div id="events" >
             <div id="event" class="panel panel-default" th:each="event : ${events}">
-                <div class="panel-body">
+                    <div class="panel-body">
                     <div class="row">
                         <!-- <div id="event-id" class="col-sm-2" th:text="${event.id}">id</div> -->
-                        <div id="event-title" class="col-sm-4 bg-info" th:text="${event.title}">title</div>
-                        <div id="event-start-date" class="col-sm-4 bg-info" th:text="${event.venueName}">venueName</div>
-                        <div id="event-end-date" class="col-sm-4 bg-info" th:text="'On until: ' + ${event.endDateString}">endDate</div>
+                        <div id="event-title" class="col-sm-6 bg-primary" th:text="${event.title}">title</div>
+                        <div id="event-venuexx" class="col-sm-6 bg-primary" th:text="${event.venueName}">venueName</div>
+                    </div>
+                    <div class="row">
+                        <div id="event-date" class="col-sm-6 bg-info"> Dates: </div>
+                        <div id="event-start-date" class="col-sm-3 bg-info" th:text="'From: ' + ${event.startDateString}">endDate</div>
+                        <div id="event-end-date" class="col-sm-3 bg-info" th:text="'Until: ' + ${event.endDateString}">endDate</div>
 
                     </div>
                     <div class="row">
@@ -44,7 +62,7 @@
                 </div>
             </div>
             <div>
-                <a th:href="'/events.html?page=' + ${pageNum}">NEXT &gt;&gt;</a>
+                <a th:href="'/events.html?category='  + ${selectedCategory} + '&amp;page=' + ${pageNum}">NEXT &gt;&gt;</a>
             </div>
         </div>
     </div>

@@ -11,9 +11,9 @@ import java.util.Set;
  */
 public interface EventRepository {
 
-     public List<EventVO> getEventsXDaysAhead(int numOfDays, int page);
+     public List<EventVO> getEventsXDaysAhead(String categoryId, int numOfDays, int page);
 
-     public List<EventVO> getEventsByCategoryForXDayAhead(String category, int numOfDays, int page);
+     //public List<EventVO> getEventsByCategoryForXDayAhead(String categoryId, int numOfDays, int page);
 
      public List<CategoriesVO.Category> getCategories();
 

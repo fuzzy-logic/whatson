@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<search>
+  <total_items>63</total_items>
+  <page_size>10</page_size>
+  <page_count>7</page_count>
+  <page_number>1</page_number>
+  <page_items></page_items>
+  <first_item></first_item>
+  <last_item></last_item>
+  <search_time>0.48</search_time>
+  <events>
+    <event id="E0-001-094140110-7">
+      <title>Learn how to sing!</title>
+      <url>http://london.eventful.com/events/learn-sing-/E0-001-094140110-7?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</url>
+      <description>Token Studio singing class is a new dynamic choir led by Alex F. Lopez, our piano teacher.
+
+Singing from Elvis to Queen, Mozart to Disney Classics, you will learn essential music skills as well as singing technique and, of course, have fun!
+
+There will be a minimum of Two Live performances in 2016 (to be confirmed).
+
+Don&amp;#39;t hesitate to come and boost your confidence while learning and having a good time!</description>
+      <start_time>2016-06-29 18:30:00</start_time>
+      <stop_time>2017-03-29 19:30:00</stop_time>
+      <tz_id></tz_id>
+      <tz_olson_path></tz_olson_path>
+      <tz_country></tz_country>
+      <tz_city></tz_city>
+      <olson_path>Europe/London</olson_path>
+      <venue_id>V0-001-009481896-6</venue_id>
+      <venue_url>http://london.eventful.com/venues/token-interior-/V0-001-009481896-6?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</venue_url>
+      <venue_name>Token Interior</venue_name>
+      <venue_display>1</venue_display>
+      <venue_address>694 Fulham Road</venue_address>
+      <city_name>London</city_name>
+      <region_name>Greater London</region_name>
+      <region_abbr>London</region_abbr>
+      <postal_code></postal_code>
+      <country_name>United Kingdom</country_name>
+      <country_abbr2>GB</country_abbr2>
+      <country_abbr>GBR</country_abbr>
+      <latitude>51.501</latitude>
+      <longitude>-0.124</longitude>
+      <geocode_type>City Based GeoCodes</geocode_type>
+      <all_day>0</all_day>
+      <recur_string></recur_string>
+      <calendar_count></calendar_count>
+      <comment_count></comment_count>
+      <link_count></link_count>
+      <going_count></going_count>
+      <watching_count></watching_count>
+      <created>2016-06-12 07:18:25</created>
+      <owner>Jinge81a3</owner>
+      <modified>2016-06-12 07:18:25</modified>
+      <performers></performers>
+      <image>
+        <url>http://s1.evcdn.com/images/small/I0-001/029/088/400-8.jpeg_/learn-sing-00.jpeg</url>
+        <width>48</width>
+        <height>48</height>
+        <caption></caption>
+        <thumb>
+          <url>http://s1.evcdn.com/images/thumb/I0-001/029/088/400-8.jpeg_/learn-sing-00.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </thumb>
+        <small>
+          <url>http://s1.evcdn.com/images/small/I0-001/029/088/400-8.jpeg_/learn-sing-00.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </small>
+        <medium>
+          <url>http://s1.evcdn.com/images/medium/I0-001/029/088/400-8.jpeg_/learn-sing-00.jpeg</url>
+          <width>128</width>
+          <height>128</height>
+        </medium>
+      </image>
+      <privacy>1</privacy>
+      <calendars></calendars>
+      <groups></groups>
+      <going></going>
+      <categories>
+        <category>
+          <id>music</id>
+          <name>Concerts &amp;amp; Tour Dates</name>
+        </category>
+      </categories>
+    </event>
+    <event id="E0-001-094140096-8">
+      <title>Guitar Lessons</title>
+      <url>http://london.eventful.com/events/guitar-lessons-/E0-001-094140096-8?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</url>
+      <description>Guitar classes at Token Studio are an excellent way to unlock areas of unexplored creativity.
+
+Our tutor, Joseph, is a songwriter, arranger, producer, guitarist, and educator. He started his career early, playing in his local jazz orchestra, earning several national awards at the age of 16.
+
+Furthering his education at the famed Bimm Music College in Fulham, Joseph?s work ethic and technical ability quickly earned him a reputation as one of the most diverse guitar players in London.
+
+Joseph has worked in Paulo Nutini and Dido?s famed Vibey 4 Studio alongside Sean Pol McGreavey (Rent and Cats) and Persian Pop Star Hossien Tohi, with whom he regularly tours Europe and the world.
+
+He is also a registered guitar tutor with RGT, enabling him to provide grades from beginner to advanced levels.
+
+The styles in which Joseph is proficient include:
+
+Reggae
+Country
+Jazz
+Jazz Fusion
+Rock
+Metal
+Rnb
+Funk
+indie
+Blues
+Rockabilly
+Classical
+
+Areas of technical specialisation:
+
+Strumming Patterns
+Sight Reading
+Rhythm Playing (Advanced and Beginner)
+Single Line
+Double Stops
+Finger Picking
+Tapping
+Two-fingered Tapping
+Basic Chords
+Advanced Chords
+Legato (hammer ons and pull offs)
+Alternate picking
+Sweep picking
+Hybrid picking
+
+It&amp;#39;s time to be the guitar player you always wanted to be!</description>
+      <start_time>2016-07-03 15:00:00</start_time>
+      <stop_time>2017-01-01 16:00:00</stop_time>
+      <tz_id></tz_id>
+      <tz_olson_path></tz_olson_path>
+      <tz_country></tz_country>
+      <tz_city></tz_city>
+      <olson_path>Europe/London</olson_path>
+      <venue_id>V0-001-009481896-6</venue_id>
+      <venue_url>http://london.eventful.com/venues/token-interior-/V0-001-009481896-6?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</venue_url>
+      <venue_name>Token Interior</venue_name>
+      <venue_display>1</venue_display>
+      <venue_address>694 Fulham Road</venue_address>
+      <city_name>London</city_name>
+      <region_name>Greater London</region_name>
+      <region_abbr>London</region_abbr>
+      <postal_code></postal_code>
+      <country_name>United Kingdom</country_name>
+      <country_abbr2>GB</country_abbr2>
+      <country_abbr>GBR</country_abbr>
+      <latitude>51.501</latitude>
+      <longitude>-0.124</longitude>
+      <geocode_type>City Based GeoCodes</geocode_type>
+      <all_day>0</all_day>
+      <recur_string></recur_string>
+      <calendar_count></calendar_count>
+      <comment_count></comment_count>
+      <link_count></link_count>
+      <going_count></going_count>
+      <watching_count></watching_count>
+      <created>2016-06-12 06:59:28</created>
+      <owner>Jinge81a3</owner>
+      <modified>2016-06-12 06:59:28</modified>
+      <performers></performers>
+      <image>
+        <url>http://s3.evcdn.com/images/small/I0-001/029/088/382-3.jpeg_/guitar-lessons-82.jpeg</url>
+        <width>48</width>
+        <height>48</height>
+        <caption></caption>
+        <thumb>
+          <url>http://s3.evcdn.com/images/thumb/I0-001/029/088/382-3.jpeg_/guitar-lessons-82.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </thumb>
+        <small>
+          <url>http://s3.evcdn.com/images/small/I0-001/029/088/382-3.jpeg_/guitar-lessons-82.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </small>
+        <medium>
+          <url>http://s3.evcdn.com/images/medium/I0-001/029/088/382-3.jpeg_/guitar-lessons-82.jpeg</url>
+          <width>128</width>
+          <height>128</height>
+        </medium>
+      </image>
+      <privacy>1</privacy>
+      <calendars></calendars>
+      <groups></groups>
+      <going></going>
+      <categories>
+        <category>
+          <id>music</id>
+          <name>Concerts &amp;amp; Tour Dates</name>
+        </category>
+      </categories>
+    </event>
+    <event id="E0-001-094275201-7">
+      <title>Guitar Lessons</title>
+      <url>http://london.eventful.com/events/guitar-lessons-/E0-001-094275201-7?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</url>
+      <description> Guitar classes at Token Studio are an excellent way to unlock areas of unexplored creativity.&lt;br&gt;&lt;br&gt; Our tutor, Joseph, is a songwriter, arranger, producer, guitarist, and educator. He started his career early, playing in his local jazz orchestra, earning several national awards at the age of 16.&lt;br&gt;&lt;br&gt; Furthering his education at the famed Bimm Music College in Fulham, Joseph&amp;#39;s work ethic and technical ability quickly earned him a reputation as one of the most diverse guitar players in London.&lt;br&gt;&lt;br&gt; Joseph has worked in Paulo Nutini and Dido&amp;#39;s famed Vibey 4 Studio alongside Sean Pol McGreavey (Rent and Cats) and Persian Pop Star Hossien Tohi, with whom he regularly tours Europe and the world.&lt;br&gt;&lt;br&gt; He is also a registered guitar tutor with RGT, enabling him to provide grades from beginner to advanced levels.&lt;br&gt;&lt;br&gt; The styles in which Joseph is proficient include:&lt;br&gt;&lt;br&gt; Reggae&lt;br&gt; Country&lt;br&gt; Jazz&lt;br&gt; Jazz Fusion&lt;br&gt; Rock&lt;br&gt; Metal&lt;br&gt; Rnb&lt;br&gt; Funk&lt;br&gt; indie&lt;br&gt; Blues&lt;br&gt; Rockabilly&lt;br&gt; Classical&lt;br&gt;&lt;br&gt; Areas of technical specialisation:&lt;br&gt;&lt;br&gt; Strumming Patterns&lt;br&gt; Sight Reading&lt;br&gt; Rhythm Playing (Advanced and Beginner)&lt;br&gt; Single Line&lt;br&gt; Double Stops&lt;br&gt; Finger Picking&lt;br&gt; Tapping&lt;br&gt; Two-fingered Tapping&lt;br&gt; Basic Chords&lt;br&gt; Advanced Chords&lt;br&gt; Legato (hammer ons and pull offs)&lt;br&gt; Alternate picking&lt;br&gt; Sweep picking&lt;br&gt; Hybrid picking&lt;br&gt;&lt;br&gt; It&amp;#39;s time to be the guitar player you always wanted to be!&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;b&gt;Official Link&lt;/b&gt;: &lt;a href="https://go.evvnt.com/59873-1" title="https://go.evvnt.com/59873-1" rel="nofollow"&gt;https://go.evvnt.com/59873-1&lt;/a&gt;&lt;/p&gt;</description>
+      <start_time>2016-07-10 17:00:00</start_time>
+      <stop_time>2017-07-10 18:00:00</stop_time>
+      <tz_id></tz_id>
+      <tz_olson_path></tz_olson_path>
+      <tz_country></tz_country>
+      <tz_city></tz_city>
+      <olson_path>Europe/London</olson_path>
+      <venue_id>V0-001-009481896-6</venue_id>
+      <venue_url>http://london.eventful.com/venues/token-interior-/V0-001-009481896-6?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</venue_url>
+      <venue_name>Token Interior</venue_name>
+      <venue_display>1</venue_display>
+      <venue_address>694 Fulham Road</venue_address>
+      <city_name>London</city_name>
+      <region_name>Greater London</region_name>
+      <region_abbr>London</region_abbr>
+      <postal_code></postal_code>
+      <country_name>United Kingdom</country_name>
+      <country_abbr2>GB</country_abbr2>
+      <country_abbr>GBR</country_abbr>
+      <latitude>51.501</latitude>
+      <longitude>-0.124</longitude>
+      <geocode_type>City Based GeoCodes</geocode_type>
+      <all_day>0</all_day>
+      <recur_string></recur_string>
+      <calendar_count></calendar_count>
+      <comment_count></comment_count>
+      <link_count></link_count>
+      <going_count></going_count>
+      <watching_count></watching_count>
+      <created>2016-06-18 02:41:46</created>
+      <owner>evdb</owner>
+      <modified>2016-07-02 16:58:07</modified>
+      <performers></performers>
+      <image></image>
+      <privacy>1</privacy>
+      <calendars></calendars>
+      <groups></groups>
+      <going></going>
+      <categories>
+        <category>
+          <id>music</id>
+          <name>Concerts &amp;amp; Tour Dates</name>
+        </category>
+      </categories>
+    </event>
+    <event id="E0-001-096113385-1">
+      <title>10 weeks one to one intermediate guitar course</title>
+      <url>http://london.eventful.com/events/10-weeks-one-one-intermediate-guitar-course-/E0-001-096113385-1?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</url>
+      <description>By the end of the 10 weeks you will have a good understanding of the modal scales, and 4 note harmony, also the skills to develop your sighting reading and basic Aural knowledge as well as a good knowledge of improvising concepts.
+
+Many of the topics discussed in these lessons are:
+
+Foundation and introduction of the Modes
+Introduction to Alternate/Economy Picking
+Music Theory (Maj7, Min7, Dom7 Chords/Scales)
+Aural and Ear Training
+Sighting Reading
+Exploring Different Genres
+Rock and Blues Soloing
+Creating Chord Sequences
+Creating Melodies
+</description>
+      <start_time>2016-09-06 11:00:00</start_time>
+      <stop_time>2016-11-15 10:00:00</stop_time>
+      <tz_id></tz_id>
+      <tz_olson_path></tz_olson_path>
+      <tz_country></tz_country>
+      <tz_city></tz_city>
+      <olson_path>Europe/London</olson_path>
+      <venue_id>V0-001-009481896-6</venue_id>
+      <venue_url>http://london.eventful.com/venues/token-interior-/V0-001-009481896-6?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</venue_url>
+      <venue_name>Token Interior</venue_name>
+      <venue_display>1</venue_display>
+      <venue_address>694 Fulham Road</venue_address>
+      <city_name>London</city_name>
+      <region_name>Greater London</region_name>
+      <region_abbr>London</region_abbr>
+      <postal_code></postal_code>
+      <country_name>United Kingdom</country_name>
+      <country_abbr2>GB</country_abbr2>
+      <country_abbr>GBR</country_abbr>
+      <latitude>51.501</latitude>
+      <longitude>-0.124</longitude>
+      <geocode_type>City Based GeoCodes</geocode_type>
+      <all_day>0</all_day>
+      <recur_string></recur_string>
+      <calendar_count></calendar_count>
+      <comment_count></comment_count>
+      <link_count></link_count>
+      <going_count></going_count>
+      <watching_count></watching_count>
+      <created>2016-08-30 03:55:58</created>
+      <owner>Jinge81a3</owner>
+      <modified>2016-08-30 03:55:58</modified>
+      <performers></performers>
+      <image>
+        <url>http://s2.evcdn.com/images/small/I0-001/032/249/409-8.jpeg_/10-weeks-one-one-intermediate-guitar-course-09.jpeg</url>
+        <width>48</width>
+        <height>48</height>
+        <caption></caption>
+        <thumb>
+          <url>http://s2.evcdn.com/images/thumb/I0-001/032/249/409-8.jpeg_/10-weeks-one-one-intermediate-guitar-course-09.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </thumb>
+        <small>
+          <url>http://s2.evcdn.com/images/small/I0-001/032/249/409-8.jpeg_/10-weeks-one-one-intermediate-guitar-course-09.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </small>
+        <medium>
+          <url>http://s2.evcdn.com/images/medium/I0-001/032/249/409-8.jpeg_/10-weeks-one-one-intermediate-guitar-course-09.jpeg</url>
+          <width>128</width>
+          <height>128</height>
+        </medium>
+      </image>
+      <privacy>1</privacy>
+      <calendars></calendars>
+      <groups></groups>
+      <going></going>
+      <categories>
+        <category>
+          <id>music</id>
+          <name>Concerts &amp;amp; Tour Dates</name>
+        </category>
+      </categories>
+    </event>
+    <event id="E0-001-096099938-4">
+      <title>10 weeks one to one beginner guitar course</title>
+      <url>http://london.eventful.com/events/10-weeks-one-one-beginner-guitar-course-/E0-001-096099938-4?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</url>
+      <description>For the first time rockers we offer a introductory lessons into the world of guitar to help feed your musical passions. In 10 weeks you will learn the skills you need to play your favourite songs and is designed to help you get the most out of your playing in 10 weeks. At the end of the course you will have the ability to learn songs from tab/sheet music, also a solid foundation of the guitar neck and basic music theory.
+
+
+Some of the topics we will cover are:
+
+Introduction to the Instrument
+Posture/Holding The Pick
+Tuning the Guitar
+How to learn a song
+Basic Music Theory
+Introduction to Chords
+Simple Strumming patterns
+Stave and Clef Reading and Tabs
+
+If you are interested in the course please fill in our online form on the link provided.</description>
+      <start_time>2016-09-19 10:00:00</start_time>
+      <stop_time>2016-11-28 10:00:00</stop_time>
+      <tz_id></tz_id>
+      <tz_olson_path></tz_olson_path>
+      <tz_country></tz_country>
+      <tz_city></tz_city>
+      <olson_path>Europe/London</olson_path>
+      <venue_id>V0-001-009481896-6</venue_id>
+      <venue_url>http://london.eventful.com/venues/token-interior-/V0-001-009481896-6?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</venue_url>
+      <venue_name>Token Interior</venue_name>
+      <venue_display>1</venue_display>
+      <venue_address>694 Fulham Road</venue_address>
+      <city_name>London</city_name>
+      <region_name>Greater London</region_name>
+      <region_abbr>London</region_abbr>
+      <postal_code></postal_code>
+      <country_name>United Kingdom</country_name>
+      <country_abbr2>GB</country_abbr2>
+      <country_abbr>GBR</country_abbr>
+      <latitude>51.501</latitude>
+      <longitude>-0.124</longitude>
+      <geocode_type>City Based GeoCodes</geocode_type>
+      <all_day>0</all_day>
+      <recur_string></recur_string>
+      <calendar_count></calendar_count>
+      <comment_count></comment_count>
+      <link_count></link_count>
+      <going_count></going_count>
+      <watching_count></watching_count>
+      <created>2016-08-29 09:32:24</created>
+      <owner>Jinge81a3</owner>
+      <modified>2016-08-29 09:32:24</modified>
+      <performers></performers>
+      <image>
+        <url>http://s1.evcdn.com/images/small/I0-001/032/221/836-4.jpeg_/10-weeks-one-one-beginner-guitar-course-36.jpeg</url>
+        <width>48</width>
+        <height>48</height>
+        <caption></caption>
+        <thumb>
+          <url>http://s1.evcdn.com/images/thumb/I0-001/032/221/836-4.jpeg_/10-weeks-one-one-beginner-guitar-course-36.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </thumb>
+        <small>
+          <url>http://s1.evcdn.com/images/small/I0-001/032/221/836-4.jpeg_/10-weeks-one-one-beginner-guitar-course-36.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </small>
+        <medium>
+          <url>http://s1.evcdn.com/images/medium/I0-001/032/221/836-4.jpeg_/10-weeks-one-one-beginner-guitar-course-36.jpeg</url>
+          <width>128</width>
+          <height>128</height>
+        </medium>
+      </image>
+      <privacy>1</privacy>
+      <calendars></calendars>
+      <groups></groups>
+      <going></going>
+      <categories>
+        <category>
+          <id>music</id>
+          <name>Concerts &amp;amp; Tour Dates</name>
+        </category>
+      </categories>
+    </event>
+    <event id="E0-001-097136508-8">
+      <title>1920s JAZZ AGE</title>
+      <url>http://london.eventful.com/events/1920s-jazz-age-/E0-001-097136508-8?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</url>
+      <description> The 1920s JAZZ AGE exhibition presents a glittering display of haute couture and ready-to-wear fashion from 1919 to 1929. &lt;p&gt;With over 150 garments, this stunning selection reveals the glamour, excess, frivolity and modernity of the decade.&lt;/p&gt;</description>
+      <start_time>2016-09-23 00:00:00</start_time>
+      <stop_time>2017-01-15 00:00:00</stop_time>
+      <tz_id></tz_id>
+      <tz_olson_path></tz_olson_path>
+      <tz_country></tz_country>
+      <tz_city></tz_city>
+      <olson_path>Europe/London</olson_path>
+      <venue_id>V0-001-008029575-1</venue_id>
+      <venue_url>http://london.eventful.com/venues/fashion-textile-museum-/V0-001-008029575-1?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</venue_url>
+      <venue_name>Fashion &amp; Textile Museum</venue_name>
+      <venue_display>1</venue_display>
+      <venue_address>83 Bermondsey Street</venue_address>
+      <city_name>London</city_name>
+      <region_name>Greater London</region_name>
+      <region_abbr>London</region_abbr>
+      <postal_code></postal_code>
+      <country_name>United Kingdom</country_name>
+      <country_abbr2>GB</country_abbr2>
+      <country_abbr>GBR</country_abbr>
+      <latitude>51.501</latitude>
+      <longitude>-0.124</longitude>
+      <geocode_type>City Based GeoCodes</geocode_type>
+      <all_day>2</all_day>
+      <recur_string></recur_string>
+      <calendar_count></calendar_count>
+      <comment_count></comment_count>
+      <link_count></link_count>
+      <going_count></going_count>
+      <watching_count></watching_count>
+      <created>2016-10-14 21:09:33</created>
+      <owner>evdb</owner>
+      <modified>2016-10-14 21:09:33</modified>
+      <performers></performers>
+      <image></image>
+      <privacy>1</privacy>
+      <calendars></calendars>
+      <groups></groups>
+      <going></going>
+      <categories>
+        <category>
+          <id>music</id>
+          <name>Concerts &amp;amp; Tour Dates</name>
+        </category>
+      </categories>
+    </event>
+    <event id="E0-001-096114618-3">
+      <title>SALE GBP8 Fun Guitar Jam Taster</title>
+      <url>http://london.eventful.com/events/sale-gbp8-fun-guitar-jam-taster-/E0-001-096114618-3?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</url>
+      <description>Join us at Token Studio where we hold our weekly guitar jams and play through some classic songs we all know and love. Learn to play these songs within a hour and perform together in a no pressure jam situation. All ages and levels are welcome. All you need is your guitar and get ready to enjoy the jam!
+
+This offer will only last until the end of October, grab the bargain, pop in play some music now!</description>
+      <start_time>2016-09-25 15:00:00</start_time>
+      <stop_time>2016-10-30 15:00:00</stop_time>
+      <tz_id></tz_id>
+      <tz_olson_path></tz_olson_path>
+      <tz_country></tz_country>
+      <tz_city></tz_city>
+      <olson_path>Europe/London</olson_path>
+      <venue_id>V0-001-009481896-6</venue_id>
+      <venue_url>http://london.eventful.com/venues/token-interior-/V0-001-009481896-6?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</venue_url>
+      <venue_name>Token Interior</venue_name>
+      <venue_display>1</venue_display>
+      <venue_address>694 Fulham Road</venue_address>
+      <city_name>London</city_name>
+      <region_name>Greater London</region_name>
+      <region_abbr>London</region_abbr>
+      <postal_code></postal_code>
+      <country_name>United Kingdom</country_name>
+      <country_abbr2>GB</country_abbr2>
+      <country_abbr>GBR</country_abbr>
+      <latitude>51.501</latitude>
+      <longitude>-0.124</longitude>
+      <geocode_type>City Based GeoCodes</geocode_type>
+      <all_day>0</all_day>
+      <recur_string></recur_string>
+      <calendar_count></calendar_count>
+      <comment_count></comment_count>
+      <link_count></link_count>
+      <going_count></going_count>
+      <watching_count></watching_count>
+      <created>2016-08-30 04:53:16</created>
+      <owner>Jinge81a3</owner>
+      <modified>2016-08-30 04:53:16</modified>
+      <performers></performers>
+      <image>
+        <url>http://s2.evcdn.com/images/small/I0-001/032/251/161-4.jpeg_/sale-gbp8-fun-guitar-jam-taster-61.jpeg</url>
+        <width>48</width>
+        <height>48</height>
+        <caption></caption>
+        <thumb>
+          <url>http://s2.evcdn.com/images/thumb/I0-001/032/251/161-4.jpeg_/sale-gbp8-fun-guitar-jam-taster-61.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </thumb>
+        <small>
+          <url>http://s2.evcdn.com/images/small/I0-001/032/251/161-4.jpeg_/sale-gbp8-fun-guitar-jam-taster-61.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </small>
+        <medium>
+          <url>http://s2.evcdn.com/images/medium/I0-001/032/251/161-4.jpeg_/sale-gbp8-fun-guitar-jam-taster-61.jpeg</url>
+          <width>128</width>
+          <height>128</height>
+        </medium>
+      </image>
+      <privacy>1</privacy>
+      <calendars></calendars>
+      <groups></groups>
+      <going></going>
+      <categories>
+        <category>
+          <id>music</id>
+          <name>Concerts &amp;amp; Tour Dates</name>
+        </category>
+      </categories>
+    </event>
+    <event id="E0-001-090660787-0">
+      <title>YAMAHA MUSIC LONDON LAUNCHES FUNNEL MUSIC</title>
+      <url>http://london.eventful.com/events/yamaha-music-london-launches-funnel-music-/E0-001-090660787-0?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</url>
+      <description>Yamaha Music London Teams Up With Funnel Music for Launch of First Ever High Street Talent Initiative
+YML hosts Funnel Music London Launch and announces joint talent-hunt initiative for 2016
+
+FOR MORE INFO: http://www.yamahamusiclondon.com/article.php?article_id=78
+
+Yamaha Music London and the pioneering UK music incubator, Funnel Music, have joined forces to unveil a ground-breaking music talent initiative for aspiring musicians. Combining YML’s central London location and Funnel Music’s industry expertise, promising music talent will be invited to ‘enter the Funnel’ through a series of live audition nights throughout 2016. Kicking-off with the official launch of Funnel Music at YML’s European flagship store in London on 10 February from 7-9pm, the event will be for industry and media, with a limited number of free tickets offered to the public on a ‘first come’ basis.
+
+A limited number of VIP tickets to the event will be released soon for the public via: www.yamahamusiclondon.com.  
+
+Funnel Music artists Joe Probert and Janileigh Cohen will perform live on the night</description>
+      <start_time>2016-10-02 19:00:00</start_time>
+      <stop_time>2016-11-02 09:00:00</stop_time>
+      <tz_id></tz_id>
+      <tz_olson_path></tz_olson_path>
+      <tz_country></tz_country>
+      <tz_city></tz_city>
+      <olson_path>Europe/London</olson_path>
+      <venue_id>V0-001-008125817-3</venue_id>
+      <venue_url>http://london.eventful.com/venues/yamaha-music-/V0-001-008125817-3?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</venue_url>
+      <venue_name>Yamaha Music</venue_name>
+      <venue_display>1</venue_display>
+      <venue_address>152-160 Wardour Street</venue_address>
+      <city_name>London</city_name>
+      <region_name>Greater London</region_name>
+      <region_abbr>London</region_abbr>
+      <postal_code></postal_code>
+      <country_name>United Kingdom</country_name>
+      <country_abbr2>GB</country_abbr2>
+      <country_abbr>GBR</country_abbr>
+      <latitude>51.501</latitude>
+      <longitude>-0.124</longitude>
+      <geocode_type>City Based GeoCodes</geocode_type>
+      <all_day>0</all_day>
+      <recur_string></recur_string>
+      <calendar_count></calendar_count>
+      <comment_count></comment_count>
+      <link_count></link_count>
+      <going_count></going_count>
+      <watching_count></watching_count>
+      <created>2016-01-27 06:42:52</created>
+      <owner>samanthagia</owner>
+      <modified>2016-01-27 09:03:21</modified>
+      <performers></performers>
+      <image>
+        <url>http://s1.evcdn.com/images/small/I0-001/025/498/872-2.jpeg_/yamaha-music-london-launches-funnel-music-72.jpeg</url>
+        <width>48</width>
+        <height>48</height>
+        <caption></caption>
+        <thumb>
+          <url>http://s1.evcdn.com/images/thumb/I0-001/025/498/872-2.jpeg_/yamaha-music-london-launches-funnel-music-72.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </thumb>
+        <small>
+          <url>http://s1.evcdn.com/images/small/I0-001/025/498/872-2.jpeg_/yamaha-music-london-launches-funnel-music-72.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </small>
+        <medium>
+          <url>http://s1.evcdn.com/images/medium/I0-001/025/498/872-2.jpeg_/yamaha-music-london-launches-funnel-music-72.jpeg</url>
+          <width>128</width>
+          <height>128</height>
+        </medium>
+      </image>
+      <privacy>1</privacy>
+      <calendars></calendars>
+      <groups></groups>
+      <going></going>
+      <categories>
+        <category>
+          <id>music</id>
+          <name>Concerts &amp;amp; Tour Dates</name>
+        </category>
+        <category>
+          <id>festivals_parades</id>
+          <name>Festivals</name>
+        </category>
+      </categories>
+    </event>
+    <event id="E0-001-096940875-1">
+      <title>Culture Trip free aperitvo   w/ Phil Mison (Cafe Del Mar), Musica  DJ's +</title>
+      <url>http://london.eventful.com/events/culture-trip-free-aperitvo-w-phil-mison-cafe-del-/E0-001-096940875-1?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</url>
+      <description>Culture Trip the Aperitivo sessions
+@ The  TripKitchen &amp; Bar  with complimentary Aperitivo* and all cocktails for GBP5 served between  5-7pm  
+ Aperitivo  means to open the appetite (?aperire? is ?to open? in Latin), and the word refers to both the drink itself, and the ritual of going out for a pre-dinner tipple with some light bites. The  TripKitchen &amp; Bar  will be offering their version of Aperitivo   preparing complimentary delicious selections of small dishes from their globally inspired classic menus with a plant based twists.  The kitchen offering the full food menu for customers to enjoy till 10 pm.
+
+Musically it all ties together too with carefully prepared playlists to ease you into the weekly Culture Trip Friday DJ sessions which start at 7pm to midnight  with carefully selected guests playing a selection of  sonic around the world trips without musical borders, the perfect Friday night soundtrack to start the weekend.
+
+Friday October Journeys @ Culture Trip
+
+ 7th with Neil Thornton (Culture Trip) 
+14th with Russell Penn (Musica Noche) &amp; special guest 
+Friday 21st with Phil Mison (Cantoma/ Reverso 68) 
+Friday 28th Culture Trip presents &amp;#39; Dance with the Devil&amp;#39;  Halloween party
+
+Culture Trip: A sonic around the world trip without musical borders, the perfect Friday night soundtrack to your evening.
+
+Resident DJs on rotation will be carefully selecting a tantalizing selection of music working so well alongside the venues fantastic carefully selected range of cocktails, globally inspired classic dishes with a plant based twist.
+
+Musically you will hear rare and wonderful selections and references from the Balearics, AOR, West Coast Soul, Latin, afro-funk, tropical sounds and the more modern sounds...souvenirs of travels through North and Latin America, Africa, Asia and the Caribbean islands and other delightful destinations. Intoxicating tunes, radiant rhythms cascading through the night
+</description>
+      <start_time>2016-10-07 17:00:00</start_time>
+      <stop_time>2016-10-28 00:00:00</stop_time>
+      <tz_id></tz_id>
+      <tz_olson_path></tz_olson_path>
+      <tz_country></tz_country>
+      <tz_city></tz_city>
+      <olson_path>Europe/London</olson_path>
+      <venue_id>V0-001-009018691-1</venue_id>
+      <venue_url>http://london.eventful.com/venues/tripspace-projects-/V0-001-009018691-1?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</venue_url>
+      <venue_name>TripSpace Projects</venue_name>
+      <venue_display>1</venue_display>
+      <venue_address>Arch 339-340 , Acton Mews</venue_address>
+      <city_name>London</city_name>
+      <region_name>Greater London</region_name>
+      <region_abbr>London</region_abbr>
+      <postal_code></postal_code>
+      <country_name>United Kingdom</country_name>
+      <country_abbr2>GB</country_abbr2>
+      <country_abbr>GBR</country_abbr>
+      <latitude>51.501</latitude>
+      <longitude>-0.124</longitude>
+      <geocode_type>City Based GeoCodes</geocode_type>
+      <all_day>0</all_day>
+      <recur_string></recur_string>
+      <calendar_count></calendar_count>
+      <comment_count></comment_count>
+      <link_count></link_count>
+      <going_count></going_count>
+      <watching_count></watching_count>
+      <created>2016-10-04 02:05:18</created>
+      <owner>Neil693f1</owner>
+      <modified>2016-10-04 02:05:18</modified>
+      <performers></performers>
+      <image>
+        <url>http://s2.evcdn.com/images/small/I0-001/033/761/281-0.jpeg_/culture-trip-free-aperitvo-w-phil-mison-cafe-del-m-81.jpeg</url>
+        <width>48</width>
+        <height>48</height>
+        <caption></caption>
+        <thumb>
+          <url>http://s2.evcdn.com/images/thumb/I0-001/033/761/281-0.jpeg_/culture-trip-free-aperitvo-w-phil-mison-cafe-del-m-81.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </thumb>
+        <small>
+          <url>http://s2.evcdn.com/images/small/I0-001/033/761/281-0.jpeg_/culture-trip-free-aperitvo-w-phil-mison-cafe-del-m-81.jpeg</url>
+          <width>48</width>
+          <height>48</height>
+        </small>
+        <medium>
+          <url>http://s2.evcdn.com/images/medium/I0-001/033/761/281-0.jpeg_/culture-trip-free-aperitvo-w-phil-mison-cafe-del-m-81.jpeg</url>
+          <width>128</width>
+          <height>128</height>
+        </medium>
+      </image>
+      <privacy>1</privacy>
+      <calendars></calendars>
+      <groups></groups>
+      <going></going>
+      <categories>
+        <category>
+          <id>music</id>
+          <name>Concerts &amp;amp; Tour Dates</name>
+        </category>
+        <category>
+          <id>holiday</id>
+          <name>Holiday</name>
+        </category>
+        <category>
+          <id>singles_social</id>
+          <name>Nightlife &amp;amp; Singles</name>
+        </category>
+      </categories>
+    </event>
+    <event id="E0-001-095323702-8">
+      <title>Moby Dick! The Musical</title>
+      <url>http://london.eventful.com/events/moby-dick-musical-/E0-001-095323702-8?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</url>
+      <description> Not seen in the UK since 1992, saucy cult hit Moby Dick! The Musical is back. Originally produced by Cameron Mackintosh, Moby Dick! The Musical has a book by Robert Longden and music and lyrics by Longden and Hereward Kaye.&lt;br&gt;&lt;br&gt; The anarchic and nubile girls of St. Godley&amp;#39;s Academy for Young Ladies are in trouble! Money for the school has run out and it&amp;#39;s threatened with closure. Determined to save their school from bankruptcy, the resourceful girls, and their unflappable headmistress come up with a plan to keep the school afloat. Using whatever they can find, the girls mount an original production as fundraiser - a musical version of Herman Melville&amp;#39;s classic novel Moby Dick, featuring their own headmistress in the coveted role of Captain Ahab.&lt;br&gt;&lt;br&gt; This brand new production, staged for the show&amp;#39;s 25th Anniversary, is directed and choreographed by double Olivier Award nominee Andrew Wright.&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;b&gt;Official Link&lt;/b&gt;: &lt;a href="http://www.uniontheatre.biz/moby_dick.html" title="http://www.uniontheatre.biz/moby_dick.html" rel="nofollow"&gt;http://www.uniontheatre.biz/moby_dick.html&lt;/a&gt;&lt;/p&gt;</description>
+      <start_time>2016-10-12 00:00:00</start_time>
+      <stop_time>2016-11-12 00:00:00</stop_time>
+      <tz_id></tz_id>
+      <tz_olson_path></tz_olson_path>
+      <tz_country></tz_country>
+      <tz_city></tz_city>
+      <olson_path>Europe/London</olson_path>
+      <venue_id>V0-001-007922387-3</venue_id>
+      <venue_url>http://london.eventful.com/venues/the-union-theatre-/V0-001-007922387-3?utm_source=apis&amp;utm_medium=apim&amp;utm_campaign=apic</venue_url>
+      <venue_name>The Union Theatre</venue_name>
+      <venue_display>1</venue_display>
+      <venue_address>204 Union Street</venue_address>
+      <city_name>London</city_name>
+      <region_name>Greater London</region_name>
+      <region_abbr>London</region_abbr>
+      <postal_code></postal_code>
+      <country_name>United Kingdom</country_name>
+      <country_abbr2>GB</country_abbr2>
+      <country_abbr>GBR</country_abbr>
+      <latitude>51.501</latitude>
+      <longitude>-0.124</longitude>
+      <geocode_type>City Based GeoCodes</geocode_type>
+      <all_day>2</all_day>
+      <recur_string></recur_string>
+      <calendar_count></calendar_count>
+      <comment_count></comment_count>
+      <link_count></link_count>
+      <going_count></going_count>
+      <watching_count></watching_count>
+      <created>2016-07-29 23:29:51</created>
+      <owner>evdb</owner>
+      <modified>2016-07-29 23:29:51</modified>
+      <performers></performers>
+      <image></image>
+      <privacy>1</privacy>
+      <calendars></calendars>
+      <groups></groups>
+      <going></going>
+      <categories>
+        <category>
+          <id>music</id>
+          <name>Concerts &amp;amp; Tour Dates</name>
+        </category>
+        <category>
+          <id>fundraisers</id>
+          <name>Fundraising &amp;amp; Charity</name>
+        </category>
+      </categories>
+    </event>
+  </events>
+</search>

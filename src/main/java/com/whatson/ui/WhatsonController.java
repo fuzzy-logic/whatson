@@ -1,6 +1,7 @@
 package com.whatson.ui;
 
 import com.whatson.application.EventService;
+import com.whatson.domain.CategoriesVO;
 import com.whatson.infrastructure.EventRepositoryImpl;
 import com.whatson.domain.EventVO;
 import org.slf4j.Logger;
@@ -29,19 +30,21 @@ public class WhatsonController {
     EventService eventService;
 
     @RequestMapping(value="/", method=RequestMethod.GET)
-    @ResponseBody
     public String index() {
-        return "Welcome to whatson!";
+        return "redirect:/events.html";
     }
 
     @RequestMapping(value="/events", method=RequestMethod.GET)
-    public String events(Model model, @RequestParam(value = "page", defaultValue = "1") int page) {
+    public String events(Model model,
+                         @RequestParam(value = "page", defaultValue = "1") int page,
+                         @RequestParam(value = "category", defaultValue = "music") String category) {
         LOGGER.trace("events() page=" + page);
-        List<EventVO> events = eventService.getNext7DaysEvents(page);
-        //LOGGER.trace("events() events=" + events);
-        model.addAttribute("title", "Whatson");
+        List<EventVO> events = eventService.getNext7DaysEvents(category, page);
+        List<CategoriesVO.Category> categories = eventService.getCategories();
         model.addAttribute("events", events);
         model.addAttribute("pageNum", ++page);
+        model.addAttribute("selectedCategory", category);
+        model.addAttribute("categories", categories);
         return "events";
     }
 

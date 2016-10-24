@@ -2,11 +2,11 @@ package com.whatson.ui;
 
 import static org.hamcrest.Matchers.*;
 import static org.springframework.test.web.client.ExpectedCount.once;
+import static org.springframework.test.web.client.match.MockRestRequestMatchers.header;
 import static org.springframework.test.web.client.match.MockRestRequestMatchers.method;
 import static org.springframework.test.web.client.match.MockRestRequestMatchers.requestTo;
 import static org.springframework.test.web.client.response.MockRestResponseCreators.withSuccess;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
 import com.whatson.infrastructure.EventRepository;
 import org.junit.Test;
@@ -56,25 +56,33 @@ public class WhatsOnControllerTest {
     @Test
     public void getIndex() throws Exception {
         mvc.perform(MockMvcRequestBuilders.get("/").accept(MediaType.APPLICATION_JSON))
-                .andExpect(status().isOk())
-                .andExpect(content().string(equalTo("Welcome to whatson!")));
+                .andExpect(status().is(302))
+                .andExpect(redirectedUrl("/events.html"));
     }
 
     @Test
     public void getEvents() throws Exception {
 
         String responseBody = FileTools.openClasspathFile("events-search-today-london.xml");
-
-        String params = "date=This%20Week&location=London&include=categories&page_size=20&page_number=1&sort_order=date&sort_direction=ascending";
+        String category = "music";
+        String params = "category=" + category + "&date=This%20Week&location=London&include=categories&page_size=20&page_number=1&sort_order=date&sort_direction=ascending";
         String expectedUrl = eventfulRootUrl + "/rest/events/search?" + params + "&app_key=" + appKey;
+
+        String categoryXml = FileTools.openClasspathFile("categories.xml");
+        String categoryUrl = eventfulRootUrl + "/rest/categories/list?app_key=" + appKey;
 
         MockRestServiceServer server = MockRestServiceServer.bindTo(restTemplate).build();
 
         server.expect(once(), requestTo(expectedUrl)).andExpect(method(HttpMethod.GET))
                 .andRespond(withSuccess(responseBody, MediaType.APPLICATION_JSON));
 
+        server.expect(once(), requestTo(categoryUrl)).andExpect(method(HttpMethod.GET))
+                .andRespond(withSuccess(categoryXml, MediaType.APPLICATION_JSON));
+
+
+
         // assert that titles of each event are contained in html response
-        mvc.perform(MockMvcRequestBuilders.get("/events").accept(MediaType.TEXT_HTML))
+        mvc.perform(MockMvcRequestBuilders.get("/events?category=" + category).accept(MediaType.TEXT_HTML))
                 .andExpect(status().isOk())
                 .andExpect(content().string(is(allOf(
                         containsString("<h1>Whatson: London</h1>"),
@@ -88,8 +96,11 @@ public class WhatsOnControllerTest {
                         containsString(">SLAM - Spirit of Leadership<"),
                         containsString(">Practitioner Training Workshops<"),
                         containsString(">Libra&#39;s Birthday Bash<")
-                ))));
-
+                ))))
+                .andExpect(model().attributeExists("events"))
+                .andExpect(model().attributeExists("pageNum"))
+                .andExpect(model().attributeExists("selectedCategory"))
+                .andExpect(model().attributeExists("categories"));
     }
 
 
