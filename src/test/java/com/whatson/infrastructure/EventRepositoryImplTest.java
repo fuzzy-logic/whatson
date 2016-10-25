@@ -32,7 +32,7 @@ import static  org.springframework.test.web.client.ExpectedCount.*;
  *  3.) RestTemplate expectatiosn are set in controller & repository
  *  4.) Pre fetch event data for performance
  *  5.) Use search Results object to improve pagination behaviour
- *  
+ *
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest
