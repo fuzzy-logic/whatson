@@ -1,6 +1,8 @@
 # whatson
 
-Simple web application to retrieve events from http://api.eventful.com
+Sample web application to retrieve events from http://api.eventful.com
+
+It's not pretty, it's not perfect, but it is just about passable :-)
 
 
 This application was structured using Domain Driven Design Principles with the following layers:
